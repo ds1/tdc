@@ -1,0 +1,1666 @@
+[
+  {
+    "domainName": "18.bot",
+    "price": 1000000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/18.jpg",
+    "length": 2
+  },
+  {
+    "domainName": "abstain.ai",
+    "price": 1300,
+    "category": "ai",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/abstain.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "adblock.tel",
+    "price": 2500,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/adblock.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "agenticcode.com",
+    "price": 2500,
+    "category": "agent",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/agenticcode.jpg",
+    "length": 11
+  },
+  {
+    "domainName": "agenticdeal.com",
+    "price": 2500,
+    "category": "agent",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/agenticdeal.jpg",
+    "length": 11
+  },
+  {
+    "domainName": "agenticjob.com",
+    "price": 2500,
+    "category": "agent",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/agenticjob.jpg",
+    "length": 10
+  },
+  {
+    "domainName": "ai.b2b",
+    "price": 1000000,
+    "category": "ai",
+    "tld": "b2b",
+    "imageUrl": "/img/thumbnails/ai.jpg",
+    "length": 2
+  },
+  {
+    "domainName": "ai.performer",
+    "price": 1000000,
+    "category": "ai",
+    "tld": "performer",
+    "imageUrl": "/img/thumbnails/ai.jpg",
+    "length": 2
+  },
+  {
+    "domainName": "ai.presenter",
+    "price": 1000000,
+    "category": "ai",
+    "tld": "presenter",
+    "imageUrl": "/img/thumbnails/ai.jpg",
+    "length": 2
+  },
+  {
+    "domainName": "ai.prices",
+    "price": 1000000,
+    "category": "ai",
+    "tld": "prices",
+    "imageUrl": "/img/thumbnails/ai.jpg",
+    "length": 2
+  },
+  {
+    "domainName": "ai.rust",
+    "price": 1000000,
+    "category": "ai",
+    "tld": "rust",
+    "imageUrl": "/img/thumbnails/ai.jpg",
+    "length": 2
+  },
+  {
+    "domainName": "ai.universe",
+    "price": 1000000,
+    "category": "ai",
+    "tld": "universe",
+    "imageUrl": "/img/thumbnails/ai.jpg",
+    "length": 2
+  },
+  {
+    "domainName": "aibudgeter.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aibudgeter.jpg",
+    "length": 10
+  },
+  {
+    "domainName": "aidesops.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aidesops.jpg",
+    "length": 8
+  },
+  {
+    "domainName": "aidezops.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aidezops.jpg",
+    "length": 8
+  },
+  {
+    "domainName": "aidiscs.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aidiscs.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "aifinancialaudit.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aifinancialaudit.jpg",
+    "length": 16
+  },
+  {
+    "domainName": "aiflowcharts.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aiflowcharts.jpg",
+    "length": 12
+  },
+  {
+    "domainName": "aifurlough.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aifurlough.jpg",
+    "length": 10
+  },
+  {
+    "domainName": "aijunkmail.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aijunkmail.jpg",
+    "length": 10
+  },
+  {
+    "domainName": "ailabeler.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/ailabeler.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "ailabeler.online",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "online",
+    "imageUrl": "/img/thumbnails/ailabeler.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "ailabeler.xyz",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "xyz",
+    "imageUrl": "/img/thumbnails/ailabeler.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "ailabelmaker.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/ailabelmaker.jpg",
+    "length": 12
+  },
+  {
+    "domainName": "ailayoff.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/ailayoff.jpg",
+    "length": 8
+  },
+  {
+    "domainName": "ainotarer.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/ainotarer.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "aioutboundleads.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aioutboundleads.jpg",
+    "length": 15
+  },
+  {
+    "domainName": "aioutboundsales.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aioutboundsales.jpg",
+    "length": 15
+  },
+  {
+    "domainName": "aipeopleoperations.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aipeopleoperations.jpg",
+    "length": 19
+  },
+  {
+    "domainName": "aipeopleops.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aipeopleops.jpg",
+    "length": 11
+  },
+  {
+    "domainName": "aiprorate.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aiprorate.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "aiuidev.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aiuidev.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "aiuiengineer.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aiuiengineer.jpg",
+    "length": 12
+  },
+  {
+    "domainName": "aiuiengineering.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aiuiengineering.jpg",
+    "length": 15
+  },
+  {
+    "domainName": "aiuserflows.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aiuserflows.jpg",
+    "length": 11
+  },
+  {
+    "domainName": "aiuxengineer.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aiuxengineer.jpg",
+    "length": 12
+  },
+  {
+    "domainName": "aiuxengineering.com",
+    "price": 9000,
+    "category": "aicom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/aiuxengineering.jpg",
+    "length": 15
+  },
+  {
+    "domainName": "alert.wave",
+    "price": 9000,
+    "category": "wave",
+    "tld": "wave",
+    "imageUrl": "/img/thumbnails/alert.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "alotofbots.com",
+    "price": 9000,
+    "category": "botcom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/alotofbots.jpg",
+    "length": 10
+  },
+  {
+    "domainName": "alpha.wave",
+    "price": 9000,
+    "category": "wave",
+    "tld": "wave",
+    "imageUrl": "/img/thumbnails/alpha.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "amen.cx",
+    "price": 9000,
+    "category": "religion",
+    "tld": "cx",
+    "imageUrl": "/img/thumbnails/amen.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "arthroplast.com",
+    "price": 9000,
+    "category": "occupation",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/arthroplast.jpg",
+    "length": 11
+  },
+  {
+    "domainName": "atticagent.com",
+    "price": 9000,
+    "category": "agent",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/atticagent.jpg",
+    "length": 10
+  },
+  {
+    "domainName": "backlogagent.com",
+    "price": 9000,
+    "category": "agent",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/backlogagent.jpg",
+    "length": 12
+  },
+  {
+    "domainName": "basementagent.com",
+    "price": 9000,
+    "category": "agent",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/basementagent.jpg",
+    "length": 13
+  },
+  {
+    "domainName": "basket.bot",
+    "price": 9000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/basket.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "bay.bot",
+    "price": 65000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/bay.jpg",
+    "length": 3
+  },
+  {
+    "domainName": "bci.api",
+    "price": 65000,
+    "category": "brain",
+    "tld": "api",
+    "imageUrl": "/img/thumbnails/bci.jpg",
+    "length": 3
+  },
+  {
+    "domainName": "bci.software",
+    "price": 65000,
+    "category": "brain",
+    "tld": "software",
+    "imageUrl": "/img/thumbnails/bci.jpg",
+    "length": 3
+  },
+  {
+    "domainName": "bci.studio",
+    "price": 65000,
+    "category": "brain",
+    "tld": "studio",
+    "imageUrl": "/img/thumbnails/bci.jpg",
+    "length": 3
+  },
+  {
+    "domainName": "bci.xr",
+    "price": 65000,
+    "category": "brain",
+    "tld": "xr",
+    "imageUrl": "/img/thumbnails/bci.jpg",
+    "length": 3
+  },
+  {
+    "domainName": "bedroomagent.com",
+    "price": 9000,
+    "category": "agent",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/bedroomagent.jpg",
+    "length": 12
+  },
+  {
+    "domainName": "bible.api",
+    "price": 24000,
+    "category": "religion",
+    "tld": "api",
+    "imageUrl": "/img/thumbnails/bible.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "bible.guidance",
+    "price": 6000,
+    "category": "religion",
+    "tld": "guidance",
+    "imageUrl": "/img/thumbnails/bible.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "bible.notes",
+    "price": 6000,
+    "category": "religion",
+    "tld": "notes",
+    "imageUrl": "/img/thumbnails/bible.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "bible.pal",
+    "price": 6000,
+    "category": "religion",
+    "tld": "pal",
+    "imageUrl": "/img/thumbnails/bible.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "binge.tel",
+    "price": 650,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/binge.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "blacktop.bot",
+    "price": 650,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/blacktop.jpg",
+    "length": 8
+  },
+  {
+    "domainName": "border.bot",
+    "price": 65000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/border.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "bot.api",
+    "price": 1000000,
+    "category": "bot",
+    "tld": "api",
+    "imageUrl": "/img/thumbnails/bot.jpg",
+    "length": 3
+  },
+  {
+    "domainName": "bot.notes",
+    "price": 100000,
+    "category": "bot",
+    "tld": "notes",
+    "imageUrl": "/img/thumbnails/bot.jpg",
+    "length": 3
+  },
+  {
+    "domainName": "botpen.ai",
+    "price": 6000,
+    "category": "ai",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/botpen.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "botpen.co",
+    "price": 2500,
+    "category": "bot",
+    "tld": "co",
+    "imageUrl": "/img/thumbnails/botpen.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "brain.api",
+    "price": 1000000,
+    "category": "brain",
+    "tld": "api",
+    "imageUrl": "/img/thumbnails/brain.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "brainstorm.tel",
+    "price": 9000,
+    "category": "brain",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/brainstorm.jpg",
+    "length": 10
+  },
+  {
+    "domainName": "brave.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/brave.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "browband.co",
+    "price": 9000,
+    "category": "",
+    "tld": "co",
+    "imageUrl": "/img/thumbnails/browband.jpg",
+    "length": 8
+  },
+  {
+    "domainName": "browband.tech",
+    "price": 9000,
+    "category": "",
+    "tld": "tech",
+    "imageUrl": "/img/thumbnails/browband.jpg",
+    "length": 8
+  },
+  {
+    "domainName": "browse.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/browse.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "commentagent.com",
+    "price": 9000,
+    "category": "agent",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/commentagent.jpg",
+    "length": 12
+  },
+  {
+    "domainName": "ctrlbrain.com",
+    "price": 9000,
+    "category": "brain",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/ctrlbrain.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "data.api",
+    "price": 1000000,
+    "category": "api",
+    "tld": "api",
+    "imageUrl": "/img/thumbnails/data.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "dearlord.ai",
+    "price": 9000,
+    "category": "religion",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/dearlord.jpg",
+    "length": 8
+  },
+  {
+    "domainName": "dearlord.co",
+    "price": 2500,
+    "category": "religion",
+    "tld": "co",
+    "imageUrl": "/img/thumbnails/dearlord.jpg",
+    "length": 8
+  },
+  {
+    "domainName": "distances.ai",
+    "price": 9000,
+    "category": "ai",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/distances.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "drivethru.bot",
+    "price": 65000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/drivethru.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "dub.bot",
+    "price": 65000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/dub.jpg",
+    "length": 3
+  },
+  {
+    "domainName": "eegstream.com",
+    "price": 9000,
+    "category": "brain",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/eegstream.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "else.bot",
+    "price": 65000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/else.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "embed.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/embed.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "erase.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/erase.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "facial.bot",
+    "price": 65000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/facial.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "financialaudit.ai",
+    "price": 24000,
+    "category": "ai",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/financialaudit.jpg",
+    "length": 14
+  },
+  {
+    "domainName": "flood.bot",
+    "price": 9000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/flood.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "focus.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/focus.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "focus.wave",
+    "price": 9000,
+    "category": "wave",
+    "tld": "wave",
+    "imageUrl": "/img/thumbnails/focus.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "grok25.com",
+    "price": 9000,
+    "category": "bot",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/grok25.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "grok26.com",
+    "price": 9000,
+    "category": "bot",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/grok26.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "gutter.bot",
+    "price": 13000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/gutter.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "impeach.ai",
+    "price": 24000,
+    "category": "political",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/impeach.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "inventorytracking.ai",
+    "price": 24000,
+    "category": "ai",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/inventorytracking.jpg",
+    "length": 18
+  },
+  {
+    "domainName": "jesus.api",
+    "price": 24000,
+    "category": "religion",
+    "tld": "api",
+    "imageUrl": "/img/thumbnails/jesus.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "jesus.follow",
+    "price": 24000,
+    "category": "religion",
+    "tld": "follow",
+    "imageUrl": "/img/thumbnails/jesus.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "labservices.ai",
+    "price": 24000,
+    "category": "ai",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/labservices.jpg",
+    "length": 11
+  },
+  {
+    "domainName": "landscape.bot",
+    "price": 9000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/landscape.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "lotobots.com",
+    "price": 9000,
+    "category": "botcom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/lotobots.jpg",
+    "length": 8
+  },
+  {
+    "domainName": "lottabots.com",
+    "price": 9000,
+    "category": "botcom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/lottabots.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "maticgems.vip",
+    "price": 9000,
+    "category": "crypto",
+    "tld": "vip",
+    "imageUrl": "/img/thumbnails/maticgems.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "menu.beer",
+    "price": 9000,
+    "category": "food",
+    "tld": "beer",
+    "imageUrl": "/img/thumbnails/menu.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "menuagent.com",
+    "price": 9000,
+    "category": "agent",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/menuagent.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "mind.wave",
+    "price": 65000,
+    "category": "wave",
+    "tld": "wave",
+    "imageUrl": "/img/thumbnails/mind.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "mrsbad.com",
+    "price": 9000,
+    "category": "adult",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/mrsbad.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "muse.api",
+    "price": 9000,
+    "category": "brain",
+    "tld": "api",
+    "imageUrl": "/img/thumbnails/muse.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "neura.tel",
+    "price": 65000,
+    "category": "brain",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/neura.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "neuro.api",
+    "price": 1000000,
+    "category": "brain",
+    "tld": "api",
+    "imageUrl": "/img/thumbnails/neuro.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "neuro.wave",
+    "price": 65000,
+    "category": "brain",
+    "tld": "wave",
+    "imageUrl": "/img/thumbnails/neuro.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "nlink.tel",
+    "price": 65000,
+    "category": "brain",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/nlink.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "notify.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/notify.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "o.damn",
+    "price": 9000,
+    "category": "L",
+    "tld": "damn",
+    "imageUrl": "/img/thumbnails/o.jpg",
+    "length": 1
+  },
+  {
+    "domainName": "oir.ai",
+    "price": 65000,
+    "category": "ai",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/oir.jpg",
+    "length": 3
+  },
+  {
+    "domainName": "open.src",
+    "price": 1000000,
+    "category": "code",
+    "tld": "src",
+    "imageUrl": "/img/thumbnails/open.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "p.wave",
+    "price": 65000,
+    "category": "wave",
+    "tld": "wave",
+    "imageUrl": "/img/thumbnails/p.jpg",
+    "length": 1
+  },
+  {
+    "domainName": "pause.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/pause.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "poopy.domains",
+    "price": 2500,
+    "category": "misc",
+    "tld": "domains",
+    "imageUrl": "/img/thumbnails/poopy.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "porj.ai",
+    "price": 24000,
+    "category": "adult",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/porj.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "porm.ai",
+    "price": 24000,
+    "category": "adult",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/porm.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "propaganda.bot",
+    "price": 9000,
+    "category": "political",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/propaganda.jpg",
+    "length": 10
+  },
+  {
+    "domainName": "prorate.ai",
+    "price": 24000,
+    "category": "ai",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/prorate.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "quan.bot",
+    "price": 9000,
+    "category": "ai",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/quan.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "reflect.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/reflect.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "replace.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/replace.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "rerun.events",
+    "price": 9000,
+    "category": "misc",
+    "tld": "events",
+    "imageUrl": "/img/thumbnails/rerun.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "reticle.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/reticle.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "rewind.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/rewind.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "rivernorthagent.com",
+    "price": 9000,
+    "category": "agent",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/rivernorthagent.jpg",
+    "length": 15
+  },
+  {
+    "domainName": "robotjury.com",
+    "price": 9000,
+    "category": "botcom",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/robotjury.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "sailor.bot",
+    "price": 9000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/sailor.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "savemore.ai",
+    "price": 9000,
+    "category": "ai",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/savemore.jpg",
+    "length": 8
+  },
+  {
+    "domainName": "semi.bot",
+    "price": 26000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/semi.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "setting.bot",
+    "price": 9000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/setting.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "shake.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/shake.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "shpp.ing",
+    "price": 9000,
+    "category": "ecommerce",
+    "tld": "ing",
+    "imageUrl": "/img/thumbnails/shpp.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "signaldata.ai",
+    "price": 24000,
+    "category": "ai",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/signaldata.jpg",
+    "length": 10
+  },
+  {
+    "domainName": "spacerace.ai",
+    "price": 24000,
+    "category": "ai",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/spacerace.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "speaker.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/speaker.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "speakernotes.ai",
+    "price": 24000,
+    "category": "ai",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/speakernotes.jpg",
+    "length": 12
+  },
+  {
+    "domainName": "spend.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/spend.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "sprinkle.bot",
+    "price": 9000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/sprinkle.jpg",
+    "length": 8
+  },
+  {
+    "domainName": "stroller.bot",
+    "price": 9000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/stroller.jpg",
+    "length": 8
+  },
+  {
+    "domainName": "summon.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/summon.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "supergrok.xyz",
+    "price": 9000,
+    "category": "crypto",
+    "tld": "xyz",
+    "imageUrl": "/img/thumbnails/supergrok.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "superior.bot",
+    "price": 9000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/superior.jpg",
+    "length": 8
+  },
+  {
+    "domainName": "supervisor.bot",
+    "price": 24000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/supervisor.jpg",
+    "length": 10
+  },
+  {
+    "domainName": "telbar.xyz",
+    "price": 650,
+    "category": "brain",
+    "tld": "xyz",
+    "imageUrl": "/img/thumbnails/telbar.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "telepathic.dev",
+    "price": 9000,
+    "category": "brain",
+    "tld": "dev",
+    "imageUrl": "/img/thumbnails/telepathic.jpg",
+    "length": 10
+  },
+  {
+    "domainName": "thru.bot",
+    "price": 24000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/thru.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "timer.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/timer.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "transplant.bot",
+    "price": 9000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/transplant.jpg",
+    "length": 10
+  },
+  {
+    "domainName": "under.bot",
+    "price": 9000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/under.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "unw.ai",
+    "price": 65000,
+    "category": "ai",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/unw.jpg",
+    "length": 3
+  },
+  {
+    "domainName": "uwl.ai",
+    "price": 65000,
+    "category": "ai",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/uwl.jpg",
+    "length": 3
+  },
+  {
+    "domainName": "valley.bot",
+    "price": 9000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/valley.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "veto.bot",
+    "price": 9000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/veto.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "vocal.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/vocal.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "voicemailagent.com",
+    "price": 24000,
+    "category": "agent",
+    "tld": "com",
+    "imageUrl": "/img/thumbnails/voicemailagent.jpg",
+    "length": 14
+  },
+  {
+    "domainName": "volume.tel",
+    "price": 9000,
+    "category": "tel",
+    "tld": "tel",
+    "imageUrl": "/img/thumbnails/volume.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "vrbci.dev",
+    "price": 9000,
+    "category": "brain",
+    "tld": "dev",
+    "imageUrl": "/img/thumbnails/vrbci.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "wholesaledeals.ai",
+    "price": 24000,
+    "category": "ai",
+    "tld": "ai",
+    "imageUrl": "/img/thumbnails/wholesaledeals.jpg",
+    "length": 14
+  },
+  {
+    "domainName": "wireframe.bot",
+    "price": 24000,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/img/thumbnails/wireframe.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "yor.cash",
+    "price": 2500,
+    "category": "crypto",
+    "tld": "cash",
+    "imageUrl": "/img/thumbnails/yor.jpg",
+    "length": 3
+  },
+  {
+    "domainName": "yor.exchange",
+    "price": 2500,
+    "category": "crypto",
+    "tld": "exchange",
+    "imageUrl": "/img/thumbnails/yor.jpg",
+    "length": 3
+  },
+  {
+    "domainName": "mutant.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/mutant.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "objective.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/objective.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "wait.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/wait.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "omit.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/omit.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "voto.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/voto.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "kitty.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/kitty.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "unplug.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/unplug.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "ivory.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/ivory.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "estoy.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/estoy.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "nigeria.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/nigeria.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "soviet.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/soviet.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "harris.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/harris.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "gavin.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/gavin.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "newsom.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/newsom.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "usdc.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/usdc.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "CleanEnergy.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/CleanEnergy.jpg",
+    "length": 11
+  },
+  {
+    "domainName": "ClimateChange.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/ClimateChange.jpg",
+    "length": 13
+  },
+  {
+    "domainName": "Eastern.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Eastern.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "Freight.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Freight.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "Pacific.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Pacific.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "Hunger.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Hunger.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "Colony.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Colony.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "Aerial.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Aerial.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "Question.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Question.jpg",
+    "length": 8
+  },
+  {
+    "domainName": "Origin.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Origin.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "Inject.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Inject.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "Pick.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Pick.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "Defensive.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Defensive.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "Chief.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Chief.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "Order.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Order.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "Ethics.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Ethics.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "Treaty.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Treaty.jpg",
+    "length": 6
+  },
+  {
+    "domainName": "Devil.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Devil.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "Seattle.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Seattle.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "Chicago.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Chicago.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "Fail.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Fail.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "Horse.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Horse.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "Beast.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Beast.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "Fear.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Fear.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "Hear.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Hear.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "Obey.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Obey.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "Govt.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Govt.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "Quan.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Quan.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "Telepathic.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Telepathic.jpg",
+    "length": 10
+  },
+  {
+    "domainName": "Telepathy.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Telepathy.jpg",
+    "length": 9
+  },
+  {
+    "domainName": "Telepath.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Telepath.jpg",
+    "length": 8
+  },
+  {
+    "domainName": "Nuclear.si",
+    "price": 2500,
+    "category": "si",
+    "tld": "si",
+    "imageUrl": "/img/thumbnails/Nuclear.jpg",
+    "length": 7
+  }
+]
