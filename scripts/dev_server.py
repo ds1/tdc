@@ -20,8 +20,16 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         path = path.split('?', 1)[0]
         path = path.split('#', 1)[0]
         
+        # Remove .html if present at the end
+        if path.endswith('.html'):
+            path = path[:-5]
+
         # Normalize slashes
         path = path.strip('/')
+        
+        # Special handling for domain detail pages
+        if path.startswith('domains/') and not path.endswith(('.html', '.css', '.js')):
+            return os.path.join(self.src_dir, 'domains/template.html')
         
         # Special handling for root path
         if not path:
@@ -100,6 +108,20 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 self.copyfile(f, self.wfile)
                 
         except FileNotFoundError:
+            # Special handling for domain detail pages
+            if self.path.startswith('/domains/'):
+                try:
+                    template_path = os.path.join(self.src_dir, 'domains/template.html')
+                    with open(template_path, 'rb') as f:
+                        self.send_response(200)
+                        self.send_header('Content-Type', 'text/html')
+                        self.send_csp_headers()
+                        self.send_cors_headers()
+                        self.end_headers()
+                        self.copyfile(f, self.wfile)
+                        return
+                except FileNotFoundError:
+                    pass
             self.send_error(404, f"File not found: {self.path}")
         except json.JSONDecodeError as e:
             self.send_error(500, f"Invalid JSON file: {e}")
@@ -126,6 +148,7 @@ def run_server(port=8080):
         print(f"  Project root: {os.path.abspath(os.path.dirname(os.path.dirname(__file__)))}")
         print("\nAvailable routes:")
         print("  - /                           -> src/index.html")
+        print("  - /domains/{domain-name}      -> src/domains/template.html")
         print("  - /data/output/domains.json   -> data/output/domains.json")
         print("  - /data/output/thumbnails/*   -> data/output/thumbnails/*")
         print("\nPress Ctrl+C to stop the server")
