@@ -1,0 +1,48 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest  # Keep Ubuntu for deployment
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Process domain data
+        run: |
+          python scripts/convert_csv_to_json.py
+
+      - name: Create build directory
+        shell: bash
+        run: |
+          mkdir -p build
+          cp -r src/* build/
+          mkdir -p build/data/output
+          cp -r data/output/* build/data/output/
+          
+          # Create .nojekyll file to prevent Jekyll processing
+          touch build/.nojekyll
+          
+          # Create CNAME file for custom domain
+          echo "topdomain.club" > build/CNAME
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: build
+          clean: true
