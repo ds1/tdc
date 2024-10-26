@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest  # Keep Ubuntu for deployment
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,16 +29,30 @@ jobs:
       - name: Create build directory
         shell: bash
         run: |
+          # Create build directory
           mkdir -p build
-          cp -r src/* build/
+
+          # Copy HTML files to root of build
+          cp src/*.html build/
+          
+          # Copy asset directories
+          cp -r src/css build/
+          cp -r src/js build/
+          cp -r src/domains build/
+          
+          # Copy data files
           mkdir -p build/data/output
           cp -r data/output/* build/data/output/
           
-          # Create .nojekyll file to prevent Jekyll processing
+          # Create required files
           touch build/.nojekyll
-          
-          # Create CNAME file for custom domain
           echo "topdomain.club" > build/CNAME
+          
+          # List contents for verification
+          echo "Build directory contents:"
+          ls -la build/
+          echo "Build directory structure:"
+          tree build/ || true
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
