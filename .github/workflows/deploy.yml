@@ -12,6 +12,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     permissions:
+      contents: write
       pages: write
       id-token: write
     
@@ -70,4 +71,3 @@ jobs:
           clean: true
           force: true
           commit-message: "Deploy site with force option"
-          token: ${{ secrets.GITHUB_TOKEN }}
