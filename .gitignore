@@ -49,3 +49,10 @@ data/output/custom_previews/*
 # Windows specific
 $RECYCLE.BIN/
 System Volume Information/
+
+# Keep docs folder
+!docs/
+docs/data/output/thumbnails/*
+!docs/data/output/thumbnails/.gitkeep
+docs/data/output/custom_previews/*
+!docs/data/output/custom_previews/.gitkeep
