@@ -55,7 +55,7 @@ jobs:
           
           # Create required files
           touch build/.nojekyll
-          echo "topdomain.club.ds1.github.io" > build/CNAME
+          echo "topdomain.club" > build/CNAME
           
           # Debug: List contents of build directory
           echo "Build directory contents:"
