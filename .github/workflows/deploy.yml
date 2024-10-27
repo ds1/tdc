@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false  # Add this for better token handling
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -26,36 +28,31 @@ jobs:
         run: |
           python scripts/convert_csv_to_json.py
 
-      - name: Create and populate build directory
+      - name: Create build directory
         shell: bash
         run: |
-          # Create fresh build directory
-          rm -rf build
-          mkdir build
+          # Create build directory
+          mkdir -p build
 
-          # Copy HTML files to build root
+          # Copy HTML files to root of build
           cp src/*.html build/
-
+          
           # Copy asset directories
           cp -r src/css build/
           cp -r src/js build/
           cp -r src/domains build/
-
-          # Copy data directory
+          
+          # Copy data files
           mkdir -p build/data/output
           cp -r data/output/* build/data/output/
-
+          
           # Create required files
           touch build/.nojekyll
-          echo "topdomain.club" > build/CNAME
-
-          # Debug: List contents of build directory structure
-          echo "Build directory structure:"
+          echo "topdomain.club.ds1.github.io" > build/CNAME
+          
+          # Debug: List contents of build directory
+          echo "Build directory contents:"
           ls -la build/
-          echo "\nCSS directory:"
-          ls -la build/css
-          echo "\nJS directory:"
-          ls -la build/js
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
@@ -63,3 +60,6 @@ jobs:
           branch: gh-pages
           folder: build
           clean: true
+          force: true
+          commit-message: "Deploy site with force option"
+          token: ${{ secrets.GITHUB_TOKEN }}  # Explicitly specify token
