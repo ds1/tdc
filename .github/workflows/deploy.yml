@@ -49,7 +49,7 @@ jobs:
           touch build/.nojekyll
           echo "topdomain.club" > build/CNAME
 
-          # Debug: List contents
+          # Debug: List contents of build directory structure
           echo "Build directory structure:"
           ls -la build/
           echo "\nCSS directory:"
