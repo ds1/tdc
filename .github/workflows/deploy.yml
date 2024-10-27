@@ -46,7 +46,7 @@ jobs:
           
           # Create required files
           touch build/.nojekyll
-          echo "topdomain.club.ds1.github.io" > build/CNAME
+          echo "topdomain.club" > build/CNAME
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
