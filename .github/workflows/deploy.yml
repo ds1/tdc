@@ -26,27 +26,37 @@ jobs:
         run: |
           python scripts/convert_csv_to_json.py
 
-      - name: Create build directory
+      - name: Create and populate build directory
         shell: bash
         run: |
-          # Create build directory
-          mkdir -p build
+          # Create fresh build directory
+          rm -rf build
+          mkdir build
 
-          # Copy files from src to build root
-          cp -r src/* build/
+          # Copy HTML files to build root
+          cp src/*.html build/
 
-          # Remove src directory from build (we don't want it in root)
-          rm -rf build/src
+          # Copy asset directories
+          cp -r src/css build/
+          cp -r src/js build/
+          cp -r src/domains build/
+
+          # Copy data directory
+          mkdir -p build/data/output
+          cp -r data/output/* build/data/output/
 
           # Create required files
           touch build/.nojekyll
           echo "topdomain.club" > build/CNAME
 
-      - name: List build contents
-        run: |
-          echo "Build directory contents:"
+          # Debug: List contents
+          echo "Build directory structure:"
           ls -la build/
-          
+          echo "\nCSS directory:"
+          ls -la build/css
+          echo "\nJS directory:"
+          ls -la build/js
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
