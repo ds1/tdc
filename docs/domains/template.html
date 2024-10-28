@@ -181,12 +181,19 @@
                     const fallbackDomainName = gradientFallback.querySelector('.domain-name');
                     fallbackDomainName.textContent = domain.domainName;
                     
-                    previewImage.onerror = function() {
+                    console.log('Loading image:', previewImage.src);
+                    previewImage.onerror = function(e) {
+                        console.log('Image load error:', e);
                         previewImage.style.display = 'none';
                         gradientFallback.style.display = 'flex';
                         
                         const colors = generateGradientColors(domain.domainName);
                         gradientFallback.style.background = `linear-gradient(135deg, ${colors.from}, ${colors.to})`;
+                    };
+                    previewImage.onload = function() {
+                    console.log('Image loaded successfully');
+                    previewImage.style.display = 'block';
+                    gradientFallback.style.display = 'none';
                     };
                 })
                 .catch(error => {
