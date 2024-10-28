@@ -6,13 +6,21 @@ import json
 
 class Handler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
-        # Get the directory where this script is located
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-        # Get project root directory
-        self.project_root = os.path.dirname(script_dir)
-        # Set src directory
-        self.src_dir = os.path.join(self.project_root, 'src')
-        super().__init__(*args, **kwargs)
+        try:
+            # Get the directory where this script is located
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            # Get project root directory
+            self.project_root = os.path.dirname(script_dir)
+            # Set src directory
+            self.docs_dir = os.path.join(self.project_root, 'docs')
+            super().__init__(*args, **kwargs)
+        except Exception as e:
+            print(f"Initialization error: {e}")
+            raise
+    
+    def handle_error(self, request, client_address):
+        """Handle errors gracefully"""
+        print(f"Error processing request from {client_address}: {request}")
 
     def translate_path(self, path):
         """Map URLs to the correct directory"""
@@ -29,18 +37,18 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         
         # Special handling for domain detail pages
         if path.startswith('domains/') and not path.endswith(('.html', '.css', '.js')):
-            return os.path.join(self.src_dir, 'domains/template.html')
+            return os.path.join(self.docs_dir, 'domains/template.html')
         
         # Special handling for root path
         if not path:
-            return os.path.join(self.src_dir, 'index.html')
+            return os.path.join(self.docs_dir, 'index.html')
         
         # Handle data directory requests
         if path.startswith('data/'):
             return os.path.join(self.project_root, path)
         
         # All other paths serve from src directory
-        return os.path.join(self.src_dir, path)
+        return os.path.join(self.docs_dir, path)
 
     def send_cors_headers(self):
         """Send CORS headers"""
@@ -147,8 +155,8 @@ def run_server(port=8080):
         print("\nDirectory structure:")
         print(f"  Project root: {os.path.abspath(os.path.dirname(os.path.dirname(__file__)))}")
         print("\nAvailable routes:")
-        print("  - /                           -> src/index.html")
-        print("  - /domains/{domain-name}      -> src/domains/template.html")
+        print("  - /                           -> docs/index.html")
+        print("  - /domains/{domain-name}      -> docs/domains/template.html")
         print("  - /data/output/domains.json   -> data/output/domains.json")
         print("  - /data/output/thumbnails/*   -> data/output/thumbnails/*")
         print("\nPress Ctrl+C to stop the server")
