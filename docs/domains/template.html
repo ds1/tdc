@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self' data: blob:; worker-src 'self' blob:;">
     <title>Domain Details - TopDomain.Club</title>
     <link rel="stylesheet" href="/css/styles.min.css">
     <style>
@@ -263,20 +264,46 @@
         }
 
         document.addEventListener('DOMContentLoaded', function() {
+            console.log('Current URL:', window.location.href);
             const pathParts = window.location.pathname.split('/');
+            console.log('Path parts:', pathParts);
             let domainName = pathParts[pathParts.length - 1];
             if (domainName.endsWith('.html')) {
                 domainName = domainName.replace('.html', '');
             }
 
+            // Handle .html extension if present
+            if (domainName === 'template.html') {
+                console.log('Direct template access - no domain specified');
+                domainName = new URLSearchParams(window.location.search).get('domain');
+                if (!domainName) {
+                    document.body.innerHTML = `
+                        <div style="text-align: center; padding: 2rem;">
+                            <h1>No Domain Specified</h1>
+                            <p>Please select a domain from the <a href="/">homepage</a>.</p>
+                        </div>
+                    `;
+                    return;
+                }
+            }
+
+            console.log('Looking for domain:', domainName);
+
             fetch('/data/output/domains.json')
-                .then(response => response.json())
+                .then(response => {
+                    console.log('Domains data response:', response.status);
+                    return response.json();
+                })
                 .then(domains => {
+                    console.log('Loaded domains:', domains.length);
+                    console.log('Searching for:', domainName);
+                    
                     const domain = domains.find(d => 
                         d.domainName.toLowerCase() === domainName.toLowerCase()
                     );
                     
                     if (!domain) {
+                        console.log('Available domains:', domains.map(d => d.domainName));
                         throw new Error('Domain not found');
                     }
 
