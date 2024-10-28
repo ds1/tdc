@@ -170,6 +170,7 @@
                     document.querySelector('.domain-length').textContent = domain.length;
                     document.querySelector('.tld').textContent = domain.tld;
                     document.getElementById('subject').value = `Inquiry about ${domain.domainName}`;
+                    document.getElementById('subject').readOnly = false;
 
                     const previewImage = document.querySelector('.preview-image');
                     const gradientFallback = document.querySelector('.gradient-fallback');
@@ -201,11 +202,27 @@
 
             document.getElementById('inquiry-form').addEventListener('submit', function(e) {
                 e.preventDefault();
+                
+                const email = document.getElementById('email').value;
+                const subject = document.getElementById('subject').value;
+                const message = document.getElementById('message').value;
+                
+                // Create mailto URL
+                const mailtoUrl = `mailto:sales@topdomain.club?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}%0D%0A%0D%0ASent from: ${encodeURIComponent(email)}`;
+                
+                // Open default mail client
+                window.location.href = mailtoUrl;
+                
+                // Show success message
                 const successMessage = document.getElementById('success-message');
                 successMessage.style.display = 'block';
                 this.reset();
+                
+                // Reset form after delay
                 setTimeout(() => {
                     successMessage.style.display = 'none';
+                    // Restore default subject if needed
+                    document.getElementById('subject').value = `Inquiry about ${domain.domainName}`;
                 }, 3000);
             });
         });
