@@ -42,13 +42,13 @@ jobs:
           # Create build directory
           mkdir -p build
 
-          # Copy HTML files to root of build
-          cp src/*.html build/
+          # Copy HTML files from docs instead of src
+          cp docs/*.html build/
           
-          # Copy asset directories
-          cp -r src/css build/
-          cp -r src/js build/
-          cp -r src/domains build/
+          # Copy asset directories from docs
+          cp -r docs/css build/
+          cp -r docs/js build/
+          cp -r docs/domains build/
           
           # Copy data files
           mkdir -p build/data/output
