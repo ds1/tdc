@@ -70,26 +70,35 @@
                 </div>
             </div>
 
-            <div class="contact-form">
+            Copy<div class="contact-form">
                 <h2 class="form-title">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
                     </svg>
                     Inquire About This Domain
                 </h2>
-                <form id="inquiry-form">
+                <form 
+                    id="inquiry-form" 
+                    action="https://formspree.io/f/xbljdpnj" 
+                    method="POST"
+                >
                     <div class="form-group">
                         <label for="email">Your Email</label>
-                        <input type="email" id="email" required placeholder="you@example.com">
+                        <input type="email" id="email" name="email" required placeholder="you@example.com">
                     </div>
                     <div class="form-group">
                         <label for="subject">Subject</label>
-                        <input type="text" id="subject" readonly>
+                        <input type="text" id="subject" name="subject">
                     </div>
                     <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea id="message" required placeholder="I'm interested in purchasing this domain..."></textarea>
+                        <textarea id="message" name="message" required placeholder="I'm interested in purchasing this domain..."></textarea>
                     </div>
+                    <!-- Hidden fields for additional context -->
+                    <input type="hidden" name="domain" id="domain-field">
+                    <input type="hidden" name="price" id="price-field">
+                    <input type="hidden" name="_next" value="https://topdomain.club">
+                    <input type="hidden" name="_subject" id="formspree-subject">
                     <button type="submit" class="buy-button">Send Inquiry</button>
                 </form>
                 <div id="success-message" class="success-message">
@@ -104,135 +113,132 @@
     </footer>
 
     <script>
-        function getCustomPreviewUrl(domainName) {
-            const fileName = domainName.toLowerCase().replace('.', '_') + '.jpg';
-            return `/data/output/custom_previews/${fileName}`;
+    function getCustomPreviewUrl(domainName) {
+        const fileName = domainName.toLowerCase().replace('.', '_') + '.jpg';
+        return `/data/output/custom_previews/${fileName}`;
+    }
+
+    function generateGradientColors(text) {
+        const hue1 = (text.charCodeAt(0) * 7) % 360;
+        const hue2 = (hue1 + 40) % 360;
+        return {
+            from: `hsl(${hue1}, 60%, 45%)`,
+            to: `hsl(${hue2}, 65%, 40%)`
+        };
+    }
+
+    function formatPrice(price) {
+        return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const domainName = urlParams.get('domain');
+        
+        if (!domainName) {
+            document.body.innerHTML = `
+                <div class="error-container">
+                    <h1>No Domain Specified</h1>
+                    <p>Please select a domain from the <a href="/">homepage</a>.</p>
+                </div>
+            `;
+            return;
         }
 
-        function generateGradientColors(text) {
-            const hue1 = (text.charCodeAt(0) * 7) % 360;
-            const hue2 = (hue1 + 40) % 360;
-            return {
-                from: `hsl(${hue1}, 60%, 45%)`,
-                to: `hsl(${hue2}, 65%, 40%)`
-            };
-        }
+        console.log('Looking for domain:', domainName);
 
-        function formatPrice(price) {
-            return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-        }
+        fetch('/data/output/domains.json')
+            .then(response => {
+                console.log('Domains data response:', response.status);
+                return response.json();
+            })
+            .then(domains => {
+                console.log('Loaded domains:', domains.length);
+                console.log('Available domains:', domains.map(d => d.domainName));
+                
+                const domain = domains.find(d => 
+                    d.domainName.toLowerCase() === domainName.toLowerCase()
+                );
+                
+                if (!domain) {
+                    throw new Error('Domain not found');
+                }
 
-        document.addEventListener('DOMContentLoaded', function() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const domainName = urlParams.get('domain');
-            
-            if (!domainName) {
-                document.body.innerHTML = `
-                    <div class="error-container">
-                        <h1>No Domain Specified</h1>
-                        <p>Please select a domain from the <a href="/">homepage</a>.</p>
-                    </div>
-                `;
-                return;
-            }
+                console.log('Found domain:', domain);
 
-            console.log('Looking for domain:', domainName);
+                document.querySelectorAll('.domain-name').forEach(el => {
+                    el.textContent = domain.domainName;
+                });
 
-            fetch('/data/output/domains.json')
-                .then(response => {
-                    console.log('Domains data response:', response.status);
-                    return response.json();
-                })
-                .then(domains => {
-                    console.log('Loaded domains:', domains.length);
-                    console.log('Available domains:', domains.map(d => d.domainName));
-                    
-                    const domain = domains.find(d => 
-                        d.domainName.toLowerCase() === domainName.toLowerCase()
-                    );
-                    
-                    if (!domain) {
-                        throw new Error('Domain not found');
-                    }
+                document.title = `${domain.domainName} - TopDomain.Club`;
+                document.querySelector('.price-amount').textContent = `$${formatPrice(domain.price)}`;
 
-                    console.log('Found domain:', domain);
+                document.querySelectorAll('.category').forEach(el => {
+                    el.textContent = domain.category;
+                });
+                document.querySelector('.domain-length').textContent = domain.length;
+                document.querySelector('.tld').textContent = domain.tld;
 
-                    document.querySelectorAll('.domain-name').forEach(el => {
-                        el.textContent = domain.domainName;
-                    });
+                // Update form fields
+                document.getElementById('domain-field').value = domain.domainName;
+                document.getElementById('price-field').value = `$${formatPrice(domain.price)}`;
+                document.getElementById('formspree-subject').value = `Inquiry about ${domain.domainName}`;
+                document.getElementById('subject').value = `Inquiry about ${domain.domainName}`;
 
-                    document.title = `${domain.domainName} - TopDomain.Club`;
-                    document.querySelector('.price-amount').textContent = `$${formatPrice(domain.price)}`;
-
-                    document.querySelectorAll('.category').forEach(el => {
-                        el.textContent = domain.category;
-                    });
-                    document.querySelector('.domain-length').textContent = domain.length;
-                    document.querySelector('.tld').textContent = domain.tld;
-                    document.getElementById('subject').value = `Inquiry about ${domain.domainName}`;
-                    document.getElementById('subject').readOnly = false;
-
-                    const previewImage = document.querySelector('.preview-image');
-                    const gradientFallback = document.querySelector('.gradient-fallback');
-                    
-                    previewImage.src = getCustomPreviewUrl(domain.domainName);
-                    previewImage.alt = `${domain.domainName} preview`;
-                    
-                    const fallbackDomainName = gradientFallback.querySelector('.domain-name');
-                    fallbackDomainName.textContent = domain.domainName;
-                    
-                    console.log('Loading image:', previewImage.src);
-                    previewImage.onerror = function(e) {
-                        console.log('Image load error:', e);
-                        previewImage.style.display = 'none';
-                        gradientFallback.style.display = 'flex';
-                        
-                        const colors = generateGradientColors(domain.domainName);
-                        gradientFallback.style.background = `linear-gradient(135deg, ${colors.from}, ${colors.to})`;
-                    };
-                    previewImage.onload = function() {
+                const previewImage = document.querySelector('.preview-image');
+                const gradientFallback = document.querySelector('.gradient-fallback');
+                
+                console.log('Loading image:', getCustomPreviewUrl(domain.domainName));
+                previewImage.src = getCustomPreviewUrl(domain.domainName);
+                previewImage.alt = `${domain.domainName} preview`;
+                
+                const fallbackDomainName = gradientFallback.querySelector('.domain-name');
+                fallbackDomainName.textContent = domain.domainName;
+                
+                previewImage.onload = function() {
                     console.log('Image loaded successfully');
                     previewImage.style.display = 'block';
                     gradientFallback.style.display = 'none';
-                    };
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                    document.body.innerHTML = `
-                        <div class="error-container">
-                            <h1>Domain Not Found</h1>
-                            <p>Sorry, we couldn't find the domain you're looking for.</p>
-                            <a href="/" class="buy-button">Return to Homepage</a>
-                        </div>
-                    `;
-                });
+                };
 
-            document.getElementById('inquiry-form').addEventListener('submit', function(e) {
-                e.preventDefault();
-                
-                const email = document.getElementById('email').value;
-                const subject = document.getElementById('subject').value;
-                const message = document.getElementById('message').value;
-                
-                // Create mailto URL
-                const mailtoUrl = `mailto:sales@topdomain.club?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}%0D%0A%0D%0ASent from: ${encodeURIComponent(email)}`;
-                
-                // Open default mail client
-                window.location.href = mailtoUrl;
-                
-                // Show success message
-                const successMessage = document.getElementById('success-message');
-                successMessage.style.display = 'block';
-                this.reset();
-                
-                // Reset form after delay
-                setTimeout(() => {
-                    successMessage.style.display = 'none';
-                    // Restore default subject if needed
-                    document.getElementById('subject').value = `Inquiry about ${domain.domainName}`;
-                }, 3000);
+                previewImage.onerror = function(e) {
+                    console.log('Image load error:', e);
+                    previewImage.style.display = 'none';
+                    gradientFallback.style.display = 'flex';
+                    
+                    const colors = generateGradientColors(domain.domainName);
+                    gradientFallback.style.background = `linear-gradient(135deg, ${colors.from}, ${colors.to})`;
+                };
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.body.innerHTML = `
+                    <div class="error-container">
+                        <h1>Domain Not Found</h1>
+                        <p>Sorry, we couldn't find the domain you're looking for.</p>
+                        <a href="/" class="buy-button">Return to Homepage</a>
+                    </div>
+                `;
             });
+
+        // Form submission handling
+        document.getElementById('inquiry-form').addEventListener('submit', function(e) {
+            const submitButton = this.querySelector('button[type="submit"]');
+            submitButton.classList.add('loading');
+            submitButton.disabled = true;
+
+            // Show success message
+            const successMessage = document.getElementById('success-message');
+            successMessage.style.display = 'block';
+
+            // Re-enable button and remove loading state after submission
+            setTimeout(() => {
+                submitButton.classList.remove('loading');
+                submitButton.disabled = false;
+                successMessage.style.display = 'none';
+            }, 3000);
         });
-    </script>
+    });
+</script>
 </body>
 </html>
