@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Domain Details - TopDomain.Club</title>
-    <link rel="stylesheet" href="../css/styles.min.css">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self' data: blob:; worker-src 'self' blob:;">
+    <link rel="stylesheet" href="/css/styles.min.css">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self' data: blob:; worker-src 'self' blob:; img-src 'self' data: /data/output/custom_previews/*;">
 </head>
 <body>
     <header>
@@ -94,7 +94,6 @@
                         <label for="message">Message</label>
                         <textarea id="message" name="message" required placeholder="I'm interested in purchasing this domain..."></textarea>
                     </div>
-                    <!-- Hidden fields for additional context -->
                     <input type="hidden" name="domain" id="domain-field">
                     <input type="hidden" name="price" id="price-field">
                     <input type="hidden" name="_next" value="https://topdomain.club">
@@ -113,132 +112,146 @@
     </footer>
 
     <script>
-    function getCustomPreviewUrl(domainName) {
-        const fileName = domainName.toLowerCase().replace('.', '_') + '.jpg';
-        return `/data/output/custom_previews/${fileName}`;
-    }
-
-    function generateGradientColors(text) {
-        const hue1 = (text.charCodeAt(0) * 7) % 360;
-        const hue2 = (hue1 + 40) % 360;
-        return {
-            from: `hsl(${hue1}, 60%, 45%)`,
-            to: `hsl(${hue2}, 65%, 40%)`
-        };
-    }
-
-    function formatPrice(price) {
-        return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    }
-
-    document.addEventListener('DOMContentLoaded', function() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const domainName = urlParams.get('domain');
-        
-        if (!domainName) {
-            document.body.innerHTML = `
-                <div class="error-container">
-                    <h1>No Domain Specified</h1>
-                    <p>Please select a domain from the <a href="/">homepage</a>.</p>
-                </div>
-            `;
-            return;
+        function getCustomPreviewUrl(domainName) {
+            // Log the domain name and generated path
+            console.log('Creating preview URL for domain:', domainName);
+            const fileName = domainName.toLowerCase().replace('.', '_') + '.jpg';
+            const fullUrl = `/data/output/custom_previews/${fileName}`;
+            console.log('Generated image URL:', fullUrl);
+            return fullUrl;
         }
 
-        console.log('Looking for domain:', domainName);
+        function generateGradientColors(text) {
+            const hue1 = (text.charCodeAt(0) * 7) % 360;
+            const hue2 = (hue1 + 40) % 360;
+            return {
+                from: `hsl(${hue1}, 60%, 45%)`,
+                to: `hsl(${hue2}, 65%, 40%)`
+            };
+        }
 
-        fetch('/data/output/domains.json')
-            .then(response => {
-                console.log('Domains data response:', response.status);
-                return response.json();
-            })
-            .then(domains => {
-                console.log('Loaded domains:', domains.length);
-                console.log('Available domains:', domains.map(d => d.domainName));
-                
-                const domain = domains.find(d => 
-                    d.domainName.toLowerCase() === domainName.toLowerCase()
-                );
-                
-                if (!domain) {
-                    throw new Error('Domain not found');
-                }
+        function formatPrice(price) {
+            return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
 
-                console.log('Found domain:', domain);
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const domainName = urlParams.get('domain');
+            
+            if (!domainName) {
+                document.body.innerHTML = `
+                    <div class="error-container">
+                        <h1>No Domain Specified</h1>
+                        <p>Please select a domain from the <a href="/">homepage</a>.</p>
+                    </div>
+                `;
+                return;
+            }
 
-                document.querySelectorAll('.domain-name').forEach(el => {
-                    el.textContent = domain.domainName;
-                });
+            console.log('Looking for domain:', domainName);
 
-                document.title = `${domain.domainName} - TopDomain.Club`;
-                document.querySelector('.price-amount').textContent = `$${formatPrice(domain.price)}`;
+            fetch('/data/output/domains.json')
+                .then(response => {
+                    console.log('Domains data response:', response.status);
+                    return response.json();
+                })
+                .then(domains => {
+                    console.log('Loaded domains:', domains.length);
+                    
+                    const domain = domains.find(d => 
+                        d.domainName.toLowerCase() === domainName.toLowerCase()
+                    );
+                    
+                    if (!domain) {
+                        throw new Error('Domain not found');
+                    }
 
-                document.querySelectorAll('.category').forEach(el => {
-                    el.textContent = domain.category;
-                });
-                document.querySelector('.domain-length').textContent = domain.length;
-                document.querySelector('.tld').textContent = domain.tld;
+                    console.log('Found domain:', domain);
 
-                // Update form fields
-                document.getElementById('domain-field').value = domain.domainName;
-                document.getElementById('price-field').value = `$${formatPrice(domain.price)}`;
-                document.getElementById('formspree-subject').value = `Inquiry about ${domain.domainName}`;
-                document.getElementById('subject').value = `Inquiry about ${domain.domainName}`;
+                    document.querySelectorAll('.domain-name').forEach(el => {
+                        el.textContent = domain.domainName;
+                    });
 
-                const previewImage = document.querySelector('.preview-image');
-                const gradientFallback = document.querySelector('.gradient-fallback');
-                
-                console.log('Loading image:', getCustomPreviewUrl(domain.domainName));
-                previewImage.src = getCustomPreviewUrl(domain.domainName);
-                previewImage.alt = `${domain.domainName} preview`;
-                
-                const fallbackDomainName = gradientFallback.querySelector('.domain-name');
-                fallbackDomainName.textContent = domain.domainName;
-                
-                previewImage.onload = function() {
-                    console.log('Image loaded successfully');
-                    previewImage.style.display = 'block';
-                    gradientFallback.style.display = 'none';
-                };
+                    document.title = `${domain.domainName} - TopDomain.Club`;
+                    document.querySelector('.price-amount').textContent = `$${formatPrice(domain.price)}`;
 
-                previewImage.onerror = function(e) {
-                    console.log('Image load error:', e);
+                    document.querySelectorAll('.category').forEach(el => {
+                        el.textContent = domain.category;
+                    });
+                    document.querySelector('.domain-length').textContent = domain.length;
+                    document.querySelector('.tld').textContent = domain.tld;
+
+                    // Update form fields
+                    document.getElementById('domain-field').value = domain.domainName;
+                    document.getElementById('price-field').value = `$${formatPrice(domain.price)}`;
+                    document.getElementById('formspree-subject').value = `Inquiry about ${domain.domainName}`;
+                    document.getElementById('subject').value = `Inquiry about ${domain.domainName}`;
+
+                    const previewImage = document.querySelector('.preview-image');
+                    const gradientFallback = document.querySelector('.gradient-fallback');
+
+                    // Set up image before loading
                     previewImage.style.display = 'none';
                     gradientFallback.style.display = 'flex';
                     
+                    // Setup fallback immediately
                     const colors = generateGradientColors(domain.domainName);
                     gradientFallback.style.background = `linear-gradient(135deg, ${colors.from}, ${colors.to})`;
-                };
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                document.body.innerHTML = `
-                    <div class="error-container">
-                        <h1>Domain Not Found</h1>
-                        <p>Sorry, we couldn't find the domain you're looking for.</p>
-                        <a href="/" class="buy-button">Return to Homepage</a>
-                    </div>
-                `;
+                    
+                    const fallbackDomainName = gradientFallback.querySelector('.domain-name');
+                    fallbackDomainName.textContent = domain.domainName;
+
+                    // Try loading the image
+                    const imageUrl = getCustomPreviewUrl(domain.domainName);
+                    console.log('Attempting to load image from:', imageUrl);
+                    
+                    // Create new image to preload
+                    const tempImage = new Image();
+                    tempImage.onload = function() {
+                        console.log('Image loaded successfully');
+                        previewImage.src = imageUrl;
+                        previewImage.style.display = 'block';
+                        gradientFallback.style.display = 'none';
+                    };
+                    
+                    tempImage.onerror = function(e) {
+                        console.log('Image load error:', e);
+                        console.log('Using gradient fallback');
+                        previewImage.style.display = 'none';
+                        gradientFallback.style.display = 'flex';
+                    };
+                    
+                    tempImage.src = imageUrl;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.body.innerHTML = `
+                        <div class="error-container">
+                            <h1>Domain Not Found</h1>
+                            <p>Sorry, we couldn't find the domain you're looking for.</p>
+                            <a href="/" class="buy-button">Return to Homepage</a>
+                        </div>
+                    `;
+                });
+
+            // Form submission handling
+            document.getElementById('inquiry-form').addEventListener('submit', function(e) {
+                const submitButton = this.querySelector('button[type="submit"]');
+                submitButton.classList.add('loading');
+                submitButton.disabled = true;
+
+                // Show success message
+                const successMessage = document.getElementById('success-message');
+                successMessage.style.display = 'block';
+
+                // Re-enable button and remove loading state after submission
+                setTimeout(() => {
+                    submitButton.classList.remove('loading');
+                    submitButton.disabled = false;
+                    successMessage.style.display = 'none';
+                }, 3000);
             });
-
-        // Form submission handling
-        document.getElementById('inquiry-form').addEventListener('submit', function(e) {
-            const submitButton = this.querySelector('button[type="submit"]');
-            submitButton.classList.add('loading');
-            submitButton.disabled = true;
-
-            // Show success message
-            const successMessage = document.getElementById('success-message');
-            successMessage.style.display = 'block';
-
-            // Re-enable button and remove loading state after submission
-            setTimeout(() => {
-                submitButton.classList.remove('loading');
-                submitButton.disabled = false;
-                successMessage.style.display = 'none';
-            }, 3000);
         });
-    });
-</script>
+    </script>
 </body>
 </html>
