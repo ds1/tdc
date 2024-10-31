@@ -1,4 +1,6 @@
-/* Base styles */
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -40,13 +42,9 @@ main {
     padding: 2rem;
 }
 
-h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 2rem;
-}
-
-/* Search and Filter Styles */
+/* ==========================================================================
+   Search and Filter Styles
+   ========================================================================== */
 #search-container {
     margin-bottom: 1.5rem;
     display: flex;
@@ -137,7 +135,9 @@ h1 {
     border-color: #007bff;
 }
 
-/* Grid View */
+/* ==========================================================================
+   Grid View Styles
+   ========================================================================== */
 .domain-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -146,42 +146,70 @@ h1 {
 }
 
 .domain-item {
+    display: block;
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 1rem;
-    text-align: center;
-    transition: transform 0.2s;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+    color: inherit;
 }
 
 .domain-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-.domain-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-    margin-bottom: 1rem;
+.domain-item-content {
+    display: flex;
+    flex-direction: column;
 }
 
-.domain-item h2 {
-    margin: 0.5rem 0;
-    color: #333;
-    font-size: 1.2rem;
+.domain-item-image {
+    width: 100%;
+    height: 160px;
+    position: relative;
+    overflow: hidden;
 }
 
-.price {
-    font-weight: 700;
-    color: #007bff;
-    font-size: 1.1rem;
-    margin: 0.5rem 0;
+.domain-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
+.domain-item-gradient {
+    width: 100%;
+    height: 100%;
+}
+
+.domain-name-container {
+    padding: 1.25rem 1rem 0.5rem;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.domain-name {
+    font-weight: 600;
+    color: #1a202c;
+}
+
+.domain-tld {
+    color: #4a5568;
+}
+
+.domain-price {
+    padding: 0 1rem 1.25rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2f855a;
+}
+
+/* ==========================================================================
+   List View Styles
+   ========================================================================== */
 .domain-list {
-    display: none;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -202,35 +230,15 @@ h1 {
     flex-direction: column;
 }
 
-.domain-list-header > div,
-.domain-list-item > div {
-    padding: 0 0.5rem;
-}
-
-.domain-list-name {
-    flex: 0 0 200px;
-}
-
-.domain-list-tld {
-    flex: 0 0 80px;
-}
-
-.domain-list-price {
-    flex: 0 0 120px;
-    text-align: right;
-}
-
-.domain-list-action {
-    flex: 0 0 120px;
-    text-align: right;
-}
-
 .domain-list-item {
     display: flex;
     align-items: center;
     padding: 0.75rem 1rem;
     border-bottom: 1px solid #ddd;
     transition: background-color 0.2s;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
 
 .domain-list-item:hover {
@@ -241,104 +249,91 @@ h1 {
     border-bottom: none;
 }
 
-/* View Toggling */
-#domain-container.grid-view #domain-grid {
-    display: grid;
+.domain-list-header > div,
+.domain-list-item > div {
+    padding: 0 0.5rem;
 }
 
-#domain-container.grid-view #domain-list {
-    display: none;
+.domain-list-name {
+    flex: 0 0 200px;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #1a202c;
 }
 
-#domain-container.list-view #domain-grid {
-    display: none;
+.domain-list-tld {
+    flex: 0 0 80px;
+    font-size: 1.125rem;
+    color: #4a5568;
 }
 
-#domain-container.list-view #domain-list {
-    display: block;
+.domain-list-price {
+    flex: 0 0 120px;
+    text-align: right;
+    font-weight: 600;
+    color: #1a202c;
 }
 
-/* Common Elements */
-.buy-button {
-    display: inline-block;
-    background-color: #28a745;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.2s;
-}
-
-.buy-button:hover {
-    background-color: #218838;
-    color: #fff;
-}
-
-/* Image Fallback */
-.domain-thumbnail-fallback {
-    width: 100%;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    color: #333;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
-/* Domain Detail Page Styles */
+/* ==========================================================================
+   Detail Page Styles
+   ========================================================================== */
 .hero-section {
     background-color: white;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
     margin-bottom: 2rem;
-    padding: 3rem 0;
+    padding: 0 0 3rem;
     width: 100%;
 }
 
-.hero-section h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: #1a202c;
+.hero-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
+/* Domain Preview Styles */
 .domain-preview {
     position: relative;
     width: 100%;
     height: 500px;
-    border-radius: 0.5rem;
+    border-radius: 0;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
     overflow: hidden;
     box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
-    margin: 2rem auto;
-    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #4a5568;
 }
 
 .domain-preview img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
 }
 
+/* Gradient Fallback Styles */
 .domain-preview .gradient-fallback {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
 }
 
-.gradient-fallback .domain-name {
-    color: white;
-    font-size: 3.5rem;
+.gradient-fallback .preview-domain-name {
+    font-size: 4.5rem;
     font-weight: bold;
+    color: white;
     margin-bottom: 1rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    max-width: 100%;
+    word-break: break-word;
+    padding: 0 1rem;
 }
 
 .gradient-fallback .premium-text {
@@ -348,6 +343,16 @@ h1 {
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
+/* Domain Name and Price Styles */
+.detail-domain-name {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0 1rem;
+    color: #1a202c;
+    min-height: 1em;
+}
+
 .price {
     font-size: 2rem;
     color: #22c55e;
@@ -355,53 +360,25 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1.5rem 0;
+    margin: 1rem 0;
     gap: 0.5rem;
+    min-height: 2.5rem;
 }
 
 .price-amount {
     font-size: 2.5rem;
+    display: block;
+    min-height: 1em;
 }
 
+/* Hide category and date info */
 .domain-info {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 1.5rem;
-    flex-wrap: wrap;
+    display: none;
 }
 
-.domain-info-item {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: #4b5563;
-    font-size: 1.1rem;
-}
-
-.domain-info-item svg {
-    color: #6b7280;
-}
-
-/* Main Content Layout */
-.main-content {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 2rem;
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-}
-
-/* About Section */
-.domain-description {
-    background: white;
-    border-radius: 0.5rem;
-    overflow: hidden;
-    padding: 1.5rem;
-}
-
-/* Contact Form */
+/* ==========================================================================
+   Contact Form Styles
+   ========================================================================== */
 .contact-form {
     background: white;
     padding: 1.5rem;
@@ -409,24 +386,14 @@ h1 {
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
 }
 
-.contact-form h2 {
+.form-title {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     color: #1a202c;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
 }
 
 .form-group {
     margin-bottom: 1rem;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-    color: #374151;
 }
 
 .form-group input,
@@ -444,6 +411,21 @@ h1 {
     resize: vertical;
 }
 
+.contact-form button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 90%;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
 .success-message {
     display: none;
     background-color: #dcfce7;
@@ -453,27 +435,28 @@ h1 {
     margin-top: 1rem;
 }
 
-/* Buttons */
-.buy-button {
-    display: inline-block;
-    background-color: #22c55e;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 0.375rem;
-    font-size: 1rem;
-    font-weight: 500;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color 0.2s;
-    text-align: center;
+/* ==========================================================================
+   Main Content Layout
+   ========================================================================== */
+.main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
 }
 
-.buy-button:hover {
-    background-color: #16a34a;
+.domain-description {
+    background: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    padding: 1.5rem;
 }
 
-/* Footer */
+/* ==========================================================================
+   Footer
+   ========================================================================== */
 footer {
     text-align: center;
     padding: 2rem;
@@ -482,32 +465,13 @@ footer {
     margin-top: 2rem;
 }
 
-/* Loading and Error States */
+/* ==========================================================================
+   Loading and Error States
+   ========================================================================== */
 .loading {
     text-align: center;
     padding: 2rem;
     color: #666;
-}
-
-.error-container {
-    text-align: center;
-    padding: 2rem;
-    background: white;
-    border-radius: 0.5rem;
-    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
-    margin: 2rem auto;
-    max-width: 600px;
-}
-
-.error-container h1 {
-    color: #1a202c;
-    margin-bottom: 1rem;
-}
-
-.error-container .buy-button {
-    display: inline-block;
-    width: auto;
-    margin-top: 1rem;
 }
 
 .error-message {
@@ -519,7 +483,9 @@ footer {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* Responsive Design */
+/* ==========================================================================
+   Responsive Design
+   ========================================================================== */
 @media (max-width: 768px) {
     main {
         padding: 1rem;
@@ -529,18 +495,21 @@ footer {
         grid-template-columns: 1fr;
     }
     
+    .hero-section {
+        padding: 0 0 2rem;
+    }
+    
+    .hero-section h1 {
+        font-size: 2.5rem;
+        margin: 1.5rem 0 0.75rem;
+    }
+
     .domain-preview {
         height: 300px;
     }
 
-    .gradient-fallback .domain-name {
-        font-size: 2rem;
-    }
-
-    .domain-info {
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
+    .gradient-fallback .preview-domain-name {
+        font-size: 3rem;
     }
 
     .price-amount {
@@ -584,7 +553,7 @@ footer {
     }
 
     .domain-list-header {
-        display: none; /* Hide headers on mobile */
+        display: none;
     }
 
     .domain-list-item {
@@ -592,17 +561,26 @@ footer {
         gap: 0.5rem;
     }
 
+    .domain-name-container {
+        font-size: 1.25rem;
+    }
+    
+    .domain-price {
+        font-size: 1.125rem;
+    }
+
     .domain-list-name,
     .domain-list-tld,
-    .domain-list-price,
-    .domain-list-action {
+    .domain-list-price {
         flex: 1 0 100%;
         text-align: left;
         padding: 0.25rem 0;
     }
 }
 
-/* Print Styles */
+/* ==========================================================================
+   Print Styles
+   ========================================================================== */
 @media print {
     header, footer, #search-container, #controls-container {
         display: none;
@@ -611,8 +589,8 @@ footer {
     .domain-item, .domain-list-item {
         break-inside: avoid;
     }
-    .contact-form,
-    .buy-button {
+
+    .contact-form {
         display: none;
     }
 }
