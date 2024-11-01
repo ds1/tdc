@@ -40,19 +40,9 @@ desktop.ini
 .conda/
 *.conda
 
-# Project specific
-data/output/thumbnails/*
-!data/output/thumbnails/.gitkeep
-data/output/custom_previews/*
-!data/output/custom_previews/.gitkeep
-
 # Windows specific
 $RECYCLE.BIN/
 System Volume Information/
 
 # Keep docs folder
 !docs/
-docs/data/output/thumbnails/*
-!docs/data/output/thumbnails/.gitkeep
-docs/data/output/custom_previews/*
-!docs/data/output/custom_previews/.gitkeep
