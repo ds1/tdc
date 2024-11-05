@@ -135,6 +135,12 @@ main {
     border-color: #007bff;
 }
 
+/* View toggling styles */
+#domain-container.grid-view #domain-grid { display: grid; }
+#domain-container.grid-view #domain-list { display: none; }
+#domain-container.list-view #domain-grid { display: none; }
+#domain-container.list-view #domain-list { display: block; }
+
 /* ==========================================================================
    Grid View Styles
    ========================================================================== */
