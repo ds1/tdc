@@ -47,6 +47,10 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         if path.startswith('data/'):
             return os.path.join(self.project_root, path)
         
+        # Special handling for test files
+        if path.startswith('test/'):
+            return os.path.join(self.docs_dir, path)
+
         # All other paths serve from src directory
         return os.path.join(self.docs_dir, path)
 
