@@ -3,12 +3,21 @@ Repository structure for: C:\Users\danma\Documents\GitHub\tdc
 
 tdc/
 ├── .gitignore
+├── desktop.ini
 ├── repo_structure.py
 ├── repo_structure.txt
 └── requirements.txt
 ├── .github/
 │   ├── workflows/
 │   │   └── deploy.yml
+├── bugs/
+│   ├── bug_grid_on_list.png
+│   ├── bug_grid_on_list_with_filter_applied.png
+│   ├── bug_images_are_displayed_locally.png
+│   ├── bug_images_are_not_displayed_in_production.png
+│   ├── bug_images_not_loading.png
+│   ├── bug_images_not_loading_detail.png
+│   └── bug_list_selected_but_displaying_grid.png
 ├── data/
 │   ├── input/
 │   │   └── domain_list.csv
@@ -174,216 +183,6 @@ tdc/
 │   │   │   ├── wireframe_bot.jpg
 │   │   │   ├── yor_cash.jpg
 │   │   │   └── yor_exchange.jpg
-│   │   ├── thumbnails/
-│   │   │   ├── .gitkeep
-│   │   │   ├── 18_bot.jpg
-│   │   │   ├── Aerial_si.jpg
-│   │   │   ├── Beast_si.jpg
-│   │   │   ├── Chicago_si.jpg
-│   │   │   ├── Chief_si.jpg
-│   │   │   ├── CleanEnergy_si.jpg
-│   │   │   ├── ClimateChange_si.jpg
-│   │   │   ├── Colony_si.jpg
-│   │   │   ├── Defensive_si.jpg
-│   │   │   ├── Devil_si.jpg
-│   │   │   ├── Eastern_si.jpg
-│   │   │   ├── Ethics_si.jpg
-│   │   │   ├── Fail_si.jpg
-│   │   │   ├── Fear_si.jpg
-│   │   │   ├── Freight_si.jpg
-│   │   │   ├── Govt_si.jpg
-│   │   │   ├── Hear_si.jpg
-│   │   │   ├── Horse_si.jpg
-│   │   │   ├── Hunger_si.jpg
-│   │   │   ├── Inject_si.jpg
-│   │   │   ├── Nuclear_si.jpg
-│   │   │   ├── Obey_si.jpg
-│   │   │   ├── Order_si.jpg
-│   │   │   ├── Origin_si.jpg
-│   │   │   ├── Pacific_si.jpg
-│   │   │   ├── Pick_si.jpg
-│   │   │   ├── Quan_si.jpg
-│   │   │   ├── Question_si.jpg
-│   │   │   ├── Seattle_si.jpg
-│   │   │   ├── Telepath_si.jpg
-│   │   │   ├── Telepathic_si.jpg
-│   │   │   ├── Telepathy_si.jpg
-│   │   │   ├── Treaty_si.jpg
-│   │   │   ├── abstain_ai.jpg
-│   │   │   ├── adblock_tel.jpg
-│   │   │   ├── agenticcode_com.jpg
-│   │   │   ├── agenticdeal_com.jpg
-│   │   │   ├── agenticjob_com.jpg
-│   │   │   ├── ai_b2b.jpg
-│   │   │   ├── ai_performer.jpg
-│   │   │   ├── ai_presenter.jpg
-│   │   │   ├── ai_prices.jpg
-│   │   │   ├── ai_rust.jpg
-│   │   │   ├── ai_universe.jpg
-│   │   │   ├── aibudgeter_com.jpg
-│   │   │   ├── aidesops_com.jpg
-│   │   │   ├── aidezops_com.jpg
-│   │   │   ├── aidiscs_com.jpg
-│   │   │   ├── aifinancialaudit_com.jpg
-│   │   │   ├── aiflowcharts_com.jpg
-│   │   │   ├── aifurlough_com.jpg
-│   │   │   ├── aijunkmail_com.jpg
-│   │   │   ├── ailabeler_com.jpg
-│   │   │   ├── ailabeler_online.jpg
-│   │   │   ├── ailabeler_xyz.jpg
-│   │   │   ├── ailabelmaker_com.jpg
-│   │   │   ├── ailayoff_com.jpg
-│   │   │   ├── ainotarer_com.jpg
-│   │   │   ├── aioutboundleads_com.jpg
-│   │   │   ├── aioutboundsales_com.jpg
-│   │   │   ├── aipeopleoperations_com.jpg
-│   │   │   ├── aipeopleops_com.jpg
-│   │   │   ├── aiprorate_com.jpg
-│   │   │   ├── aiuidev_com.jpg
-│   │   │   ├── aiuiengineer_com.jpg
-│   │   │   ├── aiuiengineering_com.jpg
-│   │   │   ├── aiuserflows_com.jpg
-│   │   │   ├── aiuxengineer_com.jpg
-│   │   │   ├── aiuxengineering_com.jpg
-│   │   │   ├── alert_wave.jpg
-│   │   │   ├── alotofbots_com.jpg
-│   │   │   ├── alpha_wave.jpg
-│   │   │   ├── amen_cx.jpg
-│   │   │   ├── arthroplast_com.jpg
-│   │   │   ├── atticagent_com.jpg
-│   │   │   ├── backlogagent_com.jpg
-│   │   │   ├── basementagent_com.jpg
-│   │   │   ├── basket_bot.jpg
-│   │   │   ├── bay_bot.jpg
-│   │   │   ├── bci_api.jpg
-│   │   │   ├── bci_software.jpg
-│   │   │   ├── bci_studio.jpg
-│   │   │   ├── bci_xr.jpg
-│   │   │   ├── bedroomagent_com.jpg
-│   │   │   ├── bible_api.jpg
-│   │   │   ├── bible_guidance.jpg
-│   │   │   ├── bible_notes.jpg
-│   │   │   ├── bible_pal.jpg
-│   │   │   ├── binge_tel.jpg
-│   │   │   ├── blacktop_bot.jpg
-│   │   │   ├── border_bot.jpg
-│   │   │   ├── bot_api.jpg
-│   │   │   ├── bot_notes.jpg
-│   │   │   ├── botpen_ai.jpg
-│   │   │   ├── botpen_co.jpg
-│   │   │   ├── brain_api.jpg
-│   │   │   ├── brainstorm_tel.jpg
-│   │   │   ├── brave_tel.jpg
-│   │   │   ├── browband_co.jpg
-│   │   │   ├── browband_tech.jpg
-│   │   │   ├── browse_tel.jpg
-│   │   │   ├── commentagent_com.jpg
-│   │   │   ├── ctrlbrain_com.jpg
-│   │   │   ├── data_api.jpg
-│   │   │   ├── dearlord_ai.jpg
-│   │   │   ├── dearlord_co.jpg
-│   │   │   ├── distances_ai.jpg
-│   │   │   ├── drivethru_bot.jpg
-│   │   │   ├── dub_bot.jpg
-│   │   │   ├── eegstream_com.jpg
-│   │   │   ├── else_bot.jpg
-│   │   │   ├── embed_tel.jpg
-│   │   │   ├── erase_tel.jpg
-│   │   │   ├── estoy_si.jpg
-│   │   │   ├── facial_bot.jpg
-│   │   │   ├── financialaudit_ai.jpg
-│   │   │   ├── flood_bot.jpg
-│   │   │   ├── focus_tel.jpg
-│   │   │   ├── focus_wave.jpg
-│   │   │   ├── gavin_si.jpg
-│   │   │   ├── grok25_com.jpg
-│   │   │   ├── grok26_com.jpg
-│   │   │   ├── gutter_bot.jpg
-│   │   │   ├── harris_si.jpg
-│   │   │   ├── impeach_ai.jpg
-│   │   │   ├── inventorytracking_ai.jpg
-│   │   │   ├── ivory_si.jpg
-│   │   │   ├── jesus_api.jpg
-│   │   │   ├── jesus_follow.jpg
-│   │   │   ├── kitty_si.jpg
-│   │   │   ├── labservices_ai.jpg
-│   │   │   ├── landscape_bot.jpg
-│   │   │   ├── lotobots_com.jpg
-│   │   │   ├── lottabots_com.jpg
-│   │   │   ├── maticgems_vip.jpg
-│   │   │   ├── menu_beer.jpg
-│   │   │   ├── menuagent_com.jpg
-│   │   │   ├── mind_wave.jpg
-│   │   │   ├── mrsbad_com.jpg
-│   │   │   ├── muse_api.jpg
-│   │   │   ├── mutant_si.jpg
-│   │   │   ├── neura_tel.jpg
-│   │   │   ├── neuro_api.jpg
-│   │   │   ├── neuro_wave.jpg
-│   │   │   ├── newsom_si.jpg
-│   │   │   ├── nigeria_si.jpg
-│   │   │   ├── nlink_tel.jpg
-│   │   │   ├── notify_tel.jpg
-│   │   │   ├── o_damn.jpg
-│   │   │   ├── objective_si.jpg
-│   │   │   ├── oir_ai.jpg
-│   │   │   ├── omit_si.jpg
-│   │   │   ├── open_src.jpg
-│   │   │   ├── p_wave.jpg
-│   │   │   ├── pause_tel.jpg
-│   │   │   ├── poopy_domains.jpg
-│   │   │   ├── porj_ai.jpg
-│   │   │   ├── porm_ai.jpg
-│   │   │   ├── propaganda_bot.jpg
-│   │   │   ├── prorate_ai.jpg
-│   │   │   ├── quan_bot.jpg
-│   │   │   ├── reflect_tel.jpg
-│   │   │   ├── replace_tel.jpg
-│   │   │   ├── rerun_events.jpg
-│   │   │   ├── reticle_tel.jpg
-│   │   │   ├── rewind_tel.jpg
-│   │   │   ├── rivernorthagent_com.jpg
-│   │   │   ├── robotjury_com.jpg
-│   │   │   ├── sailor_bot.jpg
-│   │   │   ├── savemore_ai.jpg
-│   │   │   ├── semi_bot.jpg
-│   │   │   ├── setting_bot.jpg
-│   │   │   ├── shake_tel.jpg
-│   │   │   ├── shpp_ing.jpg
-│   │   │   ├── signaldata_ai.jpg
-│   │   │   ├── soviet_si.jpg
-│   │   │   ├── spacerace_ai.jpg
-│   │   │   ├── speaker_tel.jpg
-│   │   │   ├── speakernotes_ai.jpg
-│   │   │   ├── spend_tel.jpg
-│   │   │   ├── sprinkle_bot.jpg
-│   │   │   ├── stroller_bot.jpg
-│   │   │   ├── summon_tel.jpg
-│   │   │   ├── supergrok_xyz.jpg
-│   │   │   ├── superior_bot.jpg
-│   │   │   ├── supervisor_bot.jpg
-│   │   │   ├── telbar_xyz.jpg
-│   │   │   ├── telepathic_dev.jpg
-│   │   │   ├── thru_bot.jpg
-│   │   │   ├── timer_tel.jpg
-│   │   │   ├── transplant_bot.jpg
-│   │   │   ├── under_bot.jpg
-│   │   │   ├── unplug_si.jpg
-│   │   │   ├── unw_ai.jpg
-│   │   │   ├── usdc_si.jpg
-│   │   │   ├── uwl_ai.jpg
-│   │   │   ├── valley_bot.jpg
-│   │   │   ├── veto_bot.jpg
-│   │   │   ├── vocal_tel.jpg
-│   │   │   ├── voicemailagent_com.jpg
-│   │   │   ├── volume_tel.jpg
-│   │   │   ├── voto_si.jpg
-│   │   │   ├── vrbci_dev.jpg
-│   │   │   ├── wait_si.jpg
-│   │   │   ├── wholesaledeals_ai.jpg
-│   │   │   ├── wireframe_bot.jpg
-│   │   │   ├── yor_cash.jpg
-│   │   │   └── yor_exchange.jpg
 ├── docs/
 │   ├── .nojekyll
 │   ├── CNAME
@@ -394,6 +193,7 @@ tdc/
 │   │   └── styles.min.css
 │   ├── data/
 │   │   ├── output/
+│   │   │   ├── .gitkeep
 │   │   │   └── domains.json
 │   │   │   ├── custom_previews/
 │   │   │   │   ├── .gitkeep
@@ -612,6 +412,7 @@ tdc/
 │   ├── domains/
 │   │   └── template.html
 │   ├── js/
+│   │   ├── backup-script.min.js
 │   │   └── script.min.js
 ├── scripts/
 │   ├── convert_csv_to_json.py
