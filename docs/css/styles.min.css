@@ -45,34 +45,6 @@ main {
 /* ==========================================================================
    Search and Filter Styles
    ========================================================================== */
-#search-container {
-    margin-bottom: 1.5rem;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
-
-#search-input {
-    padding: 0.5rem;
-    width: 300px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 16px;
-}
-
-#search-button {
-    padding: 0.5rem 1rem;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-#search-button:hover {
-    background-color: #0056b3;
-}
 
 /* Controls Container */
 #controls-container {
@@ -80,14 +52,111 @@ main {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1.5rem;
-    flex-wrap: wrap;
     gap: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
+/* Ensure the filter container items are properly spaced */
 #filter-container {
     display: flex;
     align-items: center;
     gap: 1rem;
+    flex-wrap: nowrap; /* Prevent wrapping unless screen is too small */
+}
+
+#search-wrapper {
+    flex: 1;
+    min-width: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem; /* Add space between search and price filter */
+}
+
+#search-input {
+    width: 100%;
+    padding: 0.5rem;
+    padding-right: 100px; /* Make room for the search button */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#search-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    white-space: nowrap; /* Prevent button text from wrapping */
+}
+
+.autocomplete-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1000;
+    display: none;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.autocomplete-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.autocomplete-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 0 4px 4px 0;
+}
+
+.autocomplete-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.autocomplete-container::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+.autocomplete-item {
+    padding: 0.75rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.autocomplete-item:hover {
+    background-color: #f5f5f5;
+}
+
+.autocomplete-item.active {
+    background-color: #f0f7ff;
+    border-left: 3px solid #007bff;
+}
+
+.autocomplete-item .domain-name {
+    font-weight: 500;
+}
+
+.autocomplete-item .domain-price {
+    color: #2f855a;
+    font-weight: 500;
 }
 
 #view-controls {
@@ -104,6 +173,117 @@ main {
     border-radius: 4px;
     font-size: 14px;
     background-color: #fff;
+}
+
+.active-filters {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+}
+
+.filter-tag {
+    background: #e2e8f0;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.filter-tag button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: #4a5568;
+}
+
+.searchable-select-wrapper {
+    position: relative;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.searchable-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.searchable-select-input {
+    width: 100%;
+    padding: 0.5rem;
+    padding-right: 30px; /* Make room for the dropdown icon */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.dropdown-icon {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.dropdown-icon.active {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.searchable-select-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    max-height: 400px; /* Increased to show more items */
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+}
+
+.searchable-select-item {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.searchable-select-item:hover,
+.searchable-select-item.highlighted {
+    background-color: #f0f7ff;
+}
+
+.searchable-select-item.selected {
+    background-color: #e2e8f0;
+}
+
+/* Custom scrollbar for the dropdown */
+.searchable-select-dropdown::-webkit-scrollbar {
+    width: 8px;
+}
+
+.searchable-select-dropdown::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 0 4px 4px 0;
+}
+
+.searchable-select-dropdown::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.searchable-select-dropdown::-webkit-scrollbar-thumb:hover {
+    background: #666;
 }
 
 /* View Toggle */
@@ -526,31 +706,42 @@ footer {
         margin-top: 1rem;
     }
 
-    #search-container {
-        flex-direction: column;
-    }
-
-    #search-input {
-        width: 100%;
-    }
-
     #controls-container {
         flex-direction: column;
         align-items: stretch;
+        padding: 0.75rem;
     }
 
     #filter-container {
-        flex-wrap: wrap;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.75rem;
     }
 
+    #search-wrapper {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    /* Make sure the autocomplete container doesn't overflow on mobile */
+    .autocomplete-container {
+        max-height: 200px; /* Smaller on mobile */
+        width: 100%;
+    }
+
+    /* Ensure other filter controls stack nicely */
     #filter-container select {
-        flex: 1;
-        min-width: 120px;
+        width: 100%;
+    }
+
+    .searchable-select-wrapper {
+        width: 100%;
     }
 
     #view-controls {
+        width: 100%;
         justify-content: space-between;
+        margin-top: 0.75rem;
     }
 
     .domain-grid {
