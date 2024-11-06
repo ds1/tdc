@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #010101;
     color: #fff;
     padding: 1rem;
 }
@@ -40,6 +40,36 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
+}
+
+.hero-banner {
+    background-color: #0b0b0c;
+    width: 100vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.hero-content {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 2rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-logo {
+    max-width: 100%;
+    max-height: 200px;
+    height: auto;
+    width: auto;
 }
 
 /* ==========================================================================
@@ -675,6 +705,18 @@ footer {
 @media (max-width: 768px) {
     main {
         padding: 1rem;
+    }
+
+    .hero-banner {
+        height: 240px;
+    }
+    
+    .hero-logo {
+        max-height: 200px;
+    }
+    
+    .hero-content {
+        padding: 0 .5rem;
     }
 
     .main-content {
