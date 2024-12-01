@@ -73,6 +73,96 @@ main {
 }
 
 /* ==========================================================================
+   Updates Page Styles
+   ========================================================================== */
+
+.updates-container {
+    max-width: 1200px;  /* Matches the main container width used elsewhere */
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Grid layout for multiple updates */
+.updates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* Individual update card styling */
+.update-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.update-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Loading state styles */
+.updates-loading {
+    text-align: center;
+    padding: 3rem;
+    color: #666;
+}
+
+.updates-loading::after {
+    content: "Loading updates...";
+    display: block;
+    margin-top: 1rem;
+}
+
+/* Twitter embed specific styles */
+.twitter-tweet {
+    margin: 0 auto !important;  /* Override Twitter's default margins */
+}
+
+/* Empty state styling */
+.updates-empty {
+    text-align: center;
+    padding: 3rem;
+    color: #666;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+/* Category filters styling */
+.update-filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.update-filter-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.update-filter-btn:hover {
+    background: #f0f0f0;
+}
+
+.update-filter-btn.active {
+    background: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+/* ==========================================================================
    Search and Filter Styles
    ========================================================================== */
 
@@ -814,6 +904,20 @@ footer {
         flex: 1 0 100%;
         text-align: left;
         padding: 0.25rem 0;
+    }
+
+    .updates-container {
+        padding: 1rem;
+    }
+
+    .updates-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .update-filters {
+        flex-direction: column;
+        align-items: stretch;
     }
 }
 
