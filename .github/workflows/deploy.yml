@@ -75,3 +75,10 @@ jobs:
           clean: true
           force: true
           commit-message: "Deploy site with force option"
+
+      - name: Debug build contents
+        run: |
+          echo "Build directory contents:"
+          ls -la build/
+          echo "CNAME file contents:"
+          cat build/CNAME
