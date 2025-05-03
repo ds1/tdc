@@ -57,6 +57,8 @@ jobs:
           cp -r docs/css build/
           cp -r docs/js build/
           cp -r docs/domains build/
+          cp -r docs/images build/
+          cp -r docs/data build/
           
           # Copy data files
           mkdir -p build/data/output
