@@ -36,6 +36,14 @@ jobs:
         run: |
           python scripts/convert_csv_to_json.py
 
+      - name: Commit updated JSON
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/output/domains.json
+          git commit -m "Update domains.json from CSV [skip ci]" || echo "No changes to commit"
+          git push
+
       - name: Create build directory
         shell: bash
         run: |
