@@ -1657,7 +1657,7 @@
   },
   {
     "domainName": "Reflect.tel",
-    "price": 9000,
+    "price": 10000,
     "category": "tel",
     "tld": "tel",
     "imageUrl": "/data/output/thumbnails/Reflect_tel.jpg",
