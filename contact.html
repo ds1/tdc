@@ -7,6 +7,22 @@
     <meta name="description" content="Have questions or need assistance? Contact TopDomain.Club for expert support with your domain purchase. We're here to help you find the perfect domain name.">
     <link rel="canonical" href="https://www.topdomain.club/contact">
     <link rel="stylesheet" href="../css/styles.min.css">
+    <script src="../js/script.min.js" defer></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "TopDomain.Club Contact",
+      "description": "Contact TopDomain.Club for domain inquiries and support",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "TopDomain.Club",
+        "email": "sales@topdomain.club",
+        "url": "https://topdomain.club",
+        "sameAs": ["https://x.com/topdomainclub"]
+      }
+    }
+    </script>
 </head>
 <body>
     <header>
@@ -20,21 +36,98 @@
         </nav>
     </header>
 
-    <main>
-        <h1>Contact Us</h1>
-        <section>
-            <h2>Get in Touch</h2>
-            <p>We're here to assist you with any questions or inquiries you may have about our domain listings or the purchasing process. Feel free to reach out to us through any of the following channels:</p>
-            <ul>
-                <li>Email: <a href="mailto:sales@topdomain.club">sales@topdomain.club</a></li>
-                <li>X (Twitter): <a href="https://x.com/topdomainclub" target="_blank" rel="noopener noreferrer">@topdomainclub</a></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Customer Support Hours</h2>
-            <p>Our team is available to assist you during the following hours:</p>
-            <p>Monday - Friday: 9:00 AM - 6:00 PM (EST)</p>
-            <p>We strive to respond to all inquiries within 24 business hours.</p>
+    <div class="hero-banner contact-hero">
+        <div class="hero-content">
+            <h1>Contact Us</h1>
+            <p class="subtitle">We're here to help you find the perfect domain</p>
+        </div>
+    </div>
+
+    <main class="contact-main">
+        <div class="contact-container">
+            <div class="contact-info">
+                <section>
+                    <h2>Get in Touch</h2>
+                    <p>We're here to assist you with any questions or inquiries about our domain listings or purchasing process. Feel free to reach out through any of the following channels:</p>
+                    <ul class="contact-methods">
+                        <li>
+                            <span class="contact-icon">✉️</span>
+                            <span class="contact-detail">Email: <a href="mailto:sales@topdomain.club">sales@topdomain.club</a></span>
+                        </li>
+                        <li>
+                            <span class="contact-icon">𝕏</span>
+                            <span class="contact-detail">X: <a href="https://x.com/topdomainclub" target="_blank" rel="noopener noreferrer">@topdomainclub</a></span>
+                        </li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Customer Support Hours</h2>
+                    <p>Our team is available to assist you during the following hours:</p>
+                    <div class="support-hours">
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM (EST)</p>
+                    </div>
+                    <p>We strive to respond to all inquiries within 24 business hours.</p>
+                </section>
+                
+                <section class="location-section">
+                    <h2>Our Location</h2>
+                    <p>We operate remotely with team members across the United States</p>
+                    <div class="map-placeholder">
+                        <img src="/images/usa-map.png" alt="USA Map" class="location-map">
+                    </div>
+                </section>
+            </div>
+            
+            <div class="contact-form-container">
+                <h2>Send Us a Message</h2>
+                <form id="contact-form" action="https://formspree.io/f/xbljdpnj" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required placeholder="How can we help you?"></textarea>
+                    </div>
+                    <input type="hidden" name="_subject" value="New Contact Form Submission">
+                    <input type="hidden" name="_next" value="https://topdomain.club/contact?submitted=true">
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+                <div id="form-success" class="success-message" style="display: none;">
+                    Thank you for your message. We'll get back to you shortly.
+                </div>
+            </div>
+        </div>
+
+        <section class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h3>How do I purchase a domain from TopDomain.Club?</h3>
+                    <p>You can inquire about any domain through our domain detail page or by contacting us directly. Once you've selected a domain, we'll guide you through the secure purchase and transfer process.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What payment methods do you accept?</h3>
+                    <p>We accept major credit cards, PayPal, and cryptocurrency payments for your convenience.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How long does the domain transfer process take?</h3>
+                    <p>Most domain transfers are completed within 1-5 business days, depending on the domain extension and registrar.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer any guarantees with domain purchases?</h3>
+                    <p>Yes, we guarantee a secure and smooth domain transfer. All transactions include an escrow service for your protection.</p>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -42,6 +135,14 @@
         <p>&copy; 2025 TopDomain.Club. All rights reserved.</p>
     </footer>
 
-    <script src="/js/script.min.js"></script>
+    <script>
+        // Check if form was successfully submitted
+        document.addEventListener('DOMContentLoaded', function() {
+            if (window.location.search.includes('submitted=true')) {
+                document.getElementById('contact-form').style.display = 'none';
+                document.getElementById('form-success').style.display = 'block';
+            }
+        });
+    </script>
 </body>
 </html>
