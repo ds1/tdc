@@ -42,7 +42,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add data/output/domains.json
           git commit -m "Update domains.json from CSV [skip ci]" || echo "No changes to commit"
-          git push
+          git push "https://${{ github.token }}@github.com/${{ github.repository }}.git" main
 
       - name: Create build directory
         shell: bash
