@@ -1,5 +1,4 @@
 domainName,price,category,tld
-0x.autos,20000,crypto,autos
 18.bot,10000,bot,bot
 Abstain.ai,1388,ai,ai
 Adblock.tel,2500,tel,tel
@@ -7,6 +6,8 @@ Aerial.si,2100,si,si
 AgentFinder.co,1100,agent,co
 AgenticCode.com,3055,agent,com
 AgenticDeal.com,3055,agent,com
+AgenticElection.com,1100,agent,com
+AgenticGigs.com,1100,agent,com
 AgenticJob.com,3055,agent,com
 AgentRent.com,1899,agent,com
 AI.B2B,10000,ai,b2b
@@ -49,7 +50,7 @@ Arthroplast.com,220,occupation,com
 AtticAgent.com,1100,agent,com
 Autopost.si,9000,si,si
 BacklogAgent.com,1100,agent,com
-BareAgent.com,1100,,
+BareAgent.com,1100,agent,com
 BasementAgent.com,1100,agent,com
 Basket.bot,9000,bot,bot
 Bay.bot,8888,bot,bot
@@ -78,6 +79,8 @@ Browband.co,9000,brain,co
 Browband.Tech,9000,brain,tech
 Browse.tel,9000,tel,tel
 BusinessDevelopmentAI.com,1100,aicom,com
+CampfireAgent.com,1100,agent,com
+CampingAgent.com,1100,agent,com
 Checkout.ar,10000,ar,ar
 Checkout.si,20000,si,si
 Chicago.si,2500,si,si
@@ -92,6 +95,7 @@ CtrlBrain.com,600,brain,com
 Data.api,10000,api,api
 DearLord.ai,330,religion,ai
 DearLord.co,330,religion,co
+DeepCrew.agency,1100,agent,agency
 Defensive.si,2500,si,si
 Delete.ar,50000,ar,ar
 Devil.si,2500,si,si
@@ -99,6 +103,7 @@ Disobey.si,9000,si,si
 Distances.ai,2200,ai,ai
 DomainList.si,9000,si,si
 DomainSearch.si,9000,si,si
+DonorAgent.org,1100,agent,org
 DriveThru.bot,10000,bot,bot
 Dub.bot,21999,bot,bot
 DynamAgent.com,500,agent,com
@@ -121,10 +126,14 @@ Father.si,20000,si,si
 Fear.si,2500,si,si
 Flesh.si,9000,si,si
 Flood.bot,9000,bot,bot
+FlowzAgent.com,1100,agent,com
 Focus.tel,9000,tel,tel
 Focus.wave,9000,wave,wave
 ForceAgentic.com,2500,agent,com
 Freight.si,2500,si,si
+FreshwaterAgent.com,1100,agent,com
+FullTimeAgents.com,1100,agent,com
+FurloughAgent.com,1100,agent,com
 Gavin.si,2500,si,si
 Govt.si,2500,si,si
 Grandfather.si,20000,si,si
@@ -135,8 +144,11 @@ Harris.si,250,si,si
 Hear.si,9000,si,si
 HelpDesk.ar,10000,ar,ar
 Horse.si,9000,si,si
+HostelAgent.com,1100,agent,com
+Humanless.agency,500,agent,agency
 Hunger.si,9000,si,si
 Impeach.ai,2799,political,ai
+InfantAgent.com,1100,agent,com
 Inject.si,9000,si,si
 InventoryTracking.ai,1100,ai,ai
 Ivory.si,2500,si,si
@@ -147,8 +159,10 @@ Kitchen.im,10000,im,im
 Kitty.si,9000,si,si
 LabServices.ai,1100,ai,ai
 Landscape.bot,9000,bot,bot
-LotoBots.com,1100,botcom,com
-LottaBots.com,1100,botcom,com
+LayoffAgent.com,1100,agent,com
+LazyJob.agency,500,agent,agency
+LotoBots.com,1100,bot,com
+LottaBots.com,1100,bot,com
 MATICGems.vip,1100,crypto,vip
 Med.tax,499,medical,tax
 Menu.beer,1100,food,beer
@@ -182,8 +196,8 @@ Open.src,10000,code,src
 Operate.si,20000,si,si
 Order.si,2500,si,si
 Origin.si,2500,si,si
-P3tal.com,1100,,
 P.wave,1100,wave,wave
+P3tal.com,1100,brain,com
 Pacific.si,5500,si,si
 Pause.tel,9000,tel,tel
 Petal.cc,4999,fintech,cc
@@ -192,11 +206,11 @@ Petal.partners,250,business,partners
 Pick.si,2500,si,si
 Pitch.ar,50000,ar,ar
 Poopy.domains,2500,misc,domains
-Predictor.bot,10000,bot,bot
 Porj.ai,2999,adult,ai
 Porm.ai,2999,adult,ai
 PostPilot.si,9000,si,si
 POV.mx,20000,adult,mx
+Predictor.bot,11888,bot,bot
 Preseed.si,9000,si,si
 PrimaryVoting.com,1100,political,com
 PrimaryVoting.loans,1100,political,loans
@@ -206,7 +220,7 @@ QTL.ai,3199,ai,ai
 Quan.bot,9000,ai,bot
 Quan.si,2500,si,si
 Question.si,2500,si,si
-Reflect.tel,10000,tel,tel
+Reflect.tel,9000,tel,tel
 Remember.ar,50000,ar,ar
 RemoteControl.ar,1299,ar,ar
 Remove.ar,50000,ar,ar
@@ -271,7 +285,7 @@ Walz.si,25000,si,si
 WeatherRobots.com,599,robot,com
 Wetware.si,9000,si,si
 WholesaleDeals.ai,1399,ai,ai
-WLF.cx,249,crypto,cx
 Wireframe.bot,10000,bot,bot
+WLF.cx,249,crypto,cx
 Yor.cash,699,crypto,cash
 Yor.exchange,699,crypto,exchange
