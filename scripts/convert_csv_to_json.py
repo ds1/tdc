@@ -24,9 +24,17 @@ def csv_to_json(csv_file, json_file):
             domain_name = row['domainName']
             safe_filename = get_safe_filename(domain_name)
             
+            # Handle empty price values by setting a default or converting only if not empty
+            price_value = 0  # Default value
+            if row['price'] and row['price'].strip():  # Check if price exists and is not just whitespace
+                try:
+                    price_value = int(row['price'])
+                except ValueError:
+                    print(f"Warning: Invalid price for domain {domain_name}. Using default value 0.")
+            
             domain = {
                 "domainName": domain_name,
-                "price": int(row['price']),
+                "price": price_value,
                 "category": row['category'],
                 "tld": row['tld'],
                 # Use the safe filename that includes both SLD and TLD
