@@ -36,15 +36,6 @@ jobs:
         run: |
           python scripts/convert_csv_to_json.py
 
-      - name: Generate LLM-friendly data files
-        run: |
-          python scripts/generate_llm_data.py
-          
-      - name: Update HTML metadata
-        run: |
-          pip install beautifulsoup4
-          python scripts/update_metadata.py
-
       - name: Commit updated JSON
         run: |
           git config --local user.email "action@github.com"
@@ -59,33 +50,19 @@ jobs:
           # Create build directory
           mkdir -p build
 
-          # Copy HTML files from docs
+          # Copy HTML files from docs instead of src
           cp docs/*.html build/
           
           # Copy asset directories from docs
           cp -r docs/css build/
           cp -r docs/js build/
-          
-          # Copy LLM-friendly data
-          mkdir -p build/llm-data
-          cp -r docs/llm-data/* build/llm-data/
-          
-          # Copy categories pages to their own directory
-          mkdir -p build/categories
-          cp -r docs/llm-data/categories/* build/categories/
-          
-          # Copy directory HTML to root as well
-          cp docs/llm-data/directory.html build/
+          cp -r docs/domains build/
+          cp -r docs/images build/
+          cp -r docs/data build/
           
           # Copy data files
           mkdir -p build/data/output
           cp -r data/output/* build/data/output/
-          
-          # Copy robots.txt
-          cp docs/llm-data/robots.txt build/
-          
-          # Copy sitemap.xml
-          cp docs/llm-data/sitemap.xml build/
           
           # Create required files
           touch build/.nojekyll
@@ -99,4 +76,11 @@ jobs:
           folder: build
           clean: true
           force: true
-          commit-message: "Deploy site with LLM-friendly data"
+          commit-message: "Deploy site with force option"
+
+      - name: Debug build contents
+        run: |
+          echo "Build directory contents:"
+          ls -la build/
+          echo "CNAME file contents:"
+          cat build/CNAME
