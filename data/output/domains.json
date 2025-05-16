@@ -1,7 +1,7 @@
 [
   {
     "domainName": "10000.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/10000_bot.jpg",
@@ -9,7 +9,7 @@
   },
   {
     "domainName": "10k.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/10k_bot.jpg",
@@ -17,7 +17,7 @@
   },
   {
     "domainName": "18.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/18_bot.jpg",
@@ -25,7 +25,7 @@
   },
   {
     "domainName": "1800.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/1800_bot.jpg",
@@ -392,20 +392,28 @@
     "length": 4
   },
   {
+    "domainName": "announce.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/announce_bot.jpg",
+    "length": 8
+  },
+  {
+    "domainName": "Ass.bot",
+    "price": 0,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/Ass_bot.jpg",
+    "length": 3
+  },
+  {
     "domainName": "AtticAgent.com",
     "price": 3750,
     "category": "agent",
     "tld": "com",
     "imageUrl": "/data/output/thumbnails/AtticAgent_com.jpg",
     "length": 10
-  },
-  {
-    "domainName": "Ass.bot",
-    "price": 3750,
-    "category": "bot",
-    "tld": "bot",
-    "imageUrl": "/data/output/thumbnails/Ass_bot.jpg",
-    "length": 3
   },
   {
     "domainName": "Autogenerate.cv",
@@ -449,7 +457,7 @@
   },
   {
     "domainName": "Basket.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Basket_bot.jpg",
@@ -457,7 +465,7 @@
   },
   {
     "domainName": "Bay.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Bay_bot.jpg",
@@ -553,7 +561,7 @@
   },
   {
     "domainName": "Blacktop.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Blacktop_bot.jpg",
@@ -561,7 +569,7 @@
   },
   {
     "domainName": "Border.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Border_bot.jpg",
@@ -688,6 +696,14 @@
     "length": 12
   },
   {
+    "domainName": "canonical.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/canonical_bot.jpg",
+    "length": 9
+  },
+  {
     "domainName": "CheapestAPI.com",
     "price": 3750,
     "category": "tech",
@@ -758,6 +774,14 @@
     "tld": "com",
     "imageUrl": "/data/output/thumbnails/ClimateGear_com.jpg",
     "length": 11
+  },
+  {
+    "domainName": "codecks.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/codecks_bot.jpg",
+    "length": 7
   },
   {
     "domainName": "Cogno.si",
@@ -862,6 +886,22 @@
     "tld": "ar",
     "imageUrl": "/data/output/thumbnails/Delete_ar.jpg",
     "length": 6
+  },
+  {
+    "domainName": "describe.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/describe_bot.jpg",
+    "length": 8
+  },
+  {
+    "domainName": "description.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/description_bot.jpg",
+    "length": 11
   },
   {
     "domainName": "DetLocker.com",
@@ -984,14 +1024,6 @@
     "length": 10
   },
   {
-    "domainName": "DrinkOceanWater.org",
-    "price": 3750,
-    "category": "climate",
-    "tld": "org",
-    "imageUrl": "/data/output/thumbnails/DrinkOceanWater_org.jpg",
-    "length": 15
-  },
-  {
     "domainName": "DrinkOceanWater.com",
     "price": 3750,
     "category": "climate",
@@ -1000,8 +1032,16 @@
     "length": 15
   },
   {
-    "domainName": "DriveThru.bot",
+    "domainName": "DrinkOceanWater.org",
     "price": 3750,
+    "category": "climate",
+    "tld": "org",
+    "imageUrl": "/data/output/thumbnails/DrinkOceanWater_org.jpg",
+    "length": 15
+  },
+  {
+    "domainName": "DriveThru.bot",
+    "price": 0,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/DriveThru_bot.jpg",
@@ -1009,7 +1049,7 @@
   },
   {
     "domainName": "Dub.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Dub_bot.jpg",
@@ -1017,7 +1057,7 @@
   },
   {
     "domainName": "Duty.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Duty_bot.jpg",
@@ -1193,7 +1233,7 @@
   },
   {
     "domainName": "Flood.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Flood_bot.jpg",
@@ -1240,20 +1280,20 @@
     "length": 7
   },
   {
-    "domainName": "FreshwaterAgent.com",
-    "price": 3750,
-    "category": "agent",
-    "tld": "com",
-    "imageUrl": "/data/output/thumbnails/FreshwaterAgent_com.jpg",
-    "length": 15
-  },
-  {
     "domainName": "Frequencias.com",
     "price": 3750,
     "category": "spanish",
     "tld": "com",
     "imageUrl": "/data/output/thumbnails/Frequencias_com.jpg",
     "length": 11
+  },
+  {
+    "domainName": "FreshwaterAgent.com",
+    "price": 3750,
+    "category": "agent",
+    "tld": "com",
+    "imageUrl": "/data/output/thumbnails/FreshwaterAgent_com.jpg",
+    "length": 15
   },
   {
     "domainName": "FullTimeAgents.com",
@@ -1297,7 +1337,7 @@
   },
   {
     "domainName": "Gutter.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Gutter_bot.jpg",
@@ -1310,6 +1350,14 @@
     "tld": "si",
     "imageUrl": "/data/output/thumbnails/Hear_si.jpg",
     "length": 4
+  },
+  {
+    "domainName": "heard.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/heard_bot.jpg",
+    "length": 5
   },
   {
     "domainName": "HelpDesk.ar",
@@ -1416,11 +1464,27 @@
     "length": 11
   },
   {
+    "domainName": "json.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/json_bot.jpg",
+    "length": 4
+  },
+  {
     "domainName": "KegPump.com",
     "price": 3750,
     "category": "product",
     "tld": "com",
     "imageUrl": "/data/output/thumbnails/KegPump_com.jpg",
+    "length": 7
+  },
+  {
+    "domainName": "keyword.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/keyword_bot.jpg",
     "length": 7
   },
   {
@@ -1449,7 +1513,7 @@
   },
   {
     "domainName": "Landscape.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Landscape_bot.jpg",
@@ -1521,7 +1585,7 @@
   },
   {
     "domainName": "Memo.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Memo_bot.jpg",
@@ -1542,6 +1606,14 @@
     "tld": "com",
     "imageUrl": "/data/output/thumbnails/MenuAgent_com.jpg",
     "length": 9
+  },
+  {
+    "domainName": "metatag.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/metatag_bot.jpg",
+    "length": 7
   },
   {
     "domainName": "Mind.wave",
@@ -1640,6 +1712,14 @@
     "length": 13
   },
   {
+    "domainName": "never.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/never_bot.jpg",
+    "length": 5
+  },
+  {
     "domainName": "Newsom.si",
     "price": 3750,
     "category": "si",
@@ -1709,6 +1789,22 @@
     "category": "brain",
     "tld": "tel",
     "imageUrl": "/data/output/thumbnails/Nlink_tel.jpg",
+    "length": 5
+  },
+  {
+    "domainName": "nope.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/nope_bot.jpg",
+    "length": 4
+  },
+  {
+    "domainName": "nosql.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/nosql_bot.jpg",
     "length": 5
   },
   {
@@ -1800,6 +1896,14 @@
     "length": 5
   },
   {
+    "domainName": "organ.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/organ_bot.jpg",
+    "length": 5
+  },
+  {
     "domainName": "Origin.si",
     "price": 3750,
     "category": "si",
@@ -1833,7 +1937,7 @@
   },
   {
     "domainName": "Pareto.bot",
-    "price": 3750,
+    "price": 0,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Pareto_bot.jpg",
@@ -1937,11 +2041,19 @@
   },
   {
     "domainName": "Predictor.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Predictor_bot.jpg",
     "length": 9
+  },
+  {
+    "domainName": "prem.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/prem_bot.jpg",
+    "length": 4
   },
   {
     "domainName": "Preseed.si",
@@ -1969,7 +2081,7 @@
   },
   {
     "domainName": "Propaganda.bot",
-    "price": 3750,
+    "price": 0,
     "category": "political",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Propaganda_bot.jpg",
@@ -2001,7 +2113,7 @@
   },
   {
     "domainName": "Quan.bot",
-    "price": 3750,
+    "price": 0,
     "category": "ai",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Quan_bot.jpg",
@@ -2038,6 +2150,14 @@
     "tld": "tel",
     "imageUrl": "/data/output/thumbnails/Reflect_tel.jpg",
     "length": 7
+  },
+  {
+    "domainName": "reformat.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/reformat_bot.jpg",
+    "length": 8
   },
   {
     "domainName": "Remember.ar",
@@ -2081,7 +2201,7 @@
   },
   {
     "domainName": "Reps.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Reps_bot.jpg",
@@ -2144,8 +2264,16 @@
     "length": 9
   },
   {
+    "domainName": "rows.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/rows_bot.jpg",
+    "length": 4
+  },
+  {
     "domainName": "Sailor.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Sailor_bot.jpg",
@@ -2185,7 +2313,7 @@
   },
   {
     "domainName": "Semi.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Semi_bot.jpg",
@@ -2193,7 +2321,7 @@
   },
   {
     "domainName": "Setting.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Setting_bot.jpg",
@@ -2230,6 +2358,14 @@
     "tld": "ai",
     "imageUrl": "/data/output/thumbnails/SignalData_ai.jpg",
     "length": 10
+  },
+  {
+    "domainName": "sitemap.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/sitemap_bot.jpg",
+    "length": 7
   },
   {
     "domainName": "SlideshowAgent.com",
@@ -2289,7 +2425,7 @@
   },
   {
     "domainName": "Sprinkle.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Sprinkle_bot.jpg",
@@ -2297,7 +2433,7 @@
   },
   {
     "domainName": "Src.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Src_bot.jpg",
@@ -2313,7 +2449,7 @@
   },
   {
     "domainName": "Stroller.bot",
-    "price": 3750,
+    "price": 0,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Stroller_bot.jpg",
@@ -2337,7 +2473,7 @@
   },
   {
     "domainName": "Superior.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Superior_bot.jpg",
@@ -2345,7 +2481,7 @@
   },
   {
     "domainName": "Supervisor.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Supervisor_bot.jpg",
@@ -2393,7 +2529,7 @@
   },
   {
     "domainName": "Throw.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Throw_bot.jpg",
@@ -2401,7 +2537,7 @@
   },
   {
     "domainName": "Thru.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Thru_bot.jpg",
@@ -2416,6 +2552,14 @@
     "length": 5
   },
   {
+    "domainName": "tokenswap.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/tokenswap_bot.jpg",
+    "length": 9
+  },
+  {
     "domainName": "Tranquility.si",
     "price": 3750,
     "category": "si",
@@ -2425,7 +2569,7 @@
   },
   {
     "domainName": "Transplant.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Transplant_bot.jpg",
@@ -2446,6 +2590,14 @@
     "tld": "com",
     "imageUrl": "/data/output/thumbnails/TutoAgent_com.jpg",
     "length": 9
+  },
+  {
+    "domainName": "ultrapremium.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/ultrapremium_bot.jpg",
+    "length": 12
   },
   {
     "domainName": "Under.bot",
@@ -2489,7 +2641,7 @@
   },
   {
     "domainName": "Valley.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Valley_bot.jpg",
@@ -2497,7 +2649,7 @@
   },
   {
     "domainName": "Veto.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "bot",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Veto_bot.jpg",
@@ -2584,8 +2736,16 @@
     "length": 14
   },
   {
+    "domainName": "whom.bot",
+    "price": 5175,
+    "category": "bot",
+    "tld": "bot",
+    "imageUrl": "/data/output/thumbnails/whom_bot.jpg",
+    "length": 4
+  },
+  {
     "domainName": "Wireframe.bot",
-    "price": 3750,
+    "price": 5175,
     "category": "product",
     "tld": "bot",
     "imageUrl": "/data/output/thumbnails/Wireframe_bot.jpg",
