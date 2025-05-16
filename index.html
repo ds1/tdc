@@ -1,101 +1,260 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TopDomain.Club - Premium Domains</title>
-    <link rel="stylesheet" href="css/styles.min.css">
-    <script src="js/script.min.js"></script>
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>TopDomain.Club - Premium Domain Marketplace</title>
+<link href="css/styles.min.css" rel="stylesheet"/>
+<script src="js/script.min.js"></script>
+<link href="https://www.topdomain.club/" rel="canonical"/><meta content="English" name="language"/><link href="https://www.topdomain.club/" rel="canonical"/><meta content="English" name="language"/><link href="https://www.topdomain.club/" rel="canonical"/><meta content="English" name="language"/><meta content="Browse our curated selection of premium domains including .ai, .bot, .si, and more at TopDomain.Club. Find your perfect domain name for your next project." name="description"/><meta content="premium domains, domain marketplace, .ai domains, .bot domains, domain names for sale" name="keywords"/><link href="https://www.topdomain.club/" rel="canonical"/><meta content="TopDomain.Club - Premium Domain Marketplace" property="og:title"/><meta content="Browse our curated selection of premium domains including .ai, .bot, .si, and more." property="og:description"/><meta content="https://www.topdomain.club/images/tdc_hero_logo.png" property="og:image"/><meta content="https://www.topdomain.club/" property="og:url"/><meta content="website" property="og:type"/><meta content="TopDomain.Club" property="og:site_name"/><meta content="summary_large_image" name="twitter:card"/><meta content="TopDomain.Club - Premium Domain Marketplace" name="twitter:title"/><meta content="Browse our curated selection of premium domains including .ai, .bot, .si, and more." name="twitter:description"/><meta content="https://www.topdomain.club/images/tdc_hero_logo.png" name="twitter:image"/><meta content="@TopDomainClub" name="twitter:site"/><meta content="index, follow" name="robots"/><meta content="English" name="language"/><meta content="7 days" name="revisit-after"/><meta content="TopDomain.Club" name="author"/></head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About Us</a></li>
-                <li><a href="/updates">Updates</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="hero-banner">
-        <div class="hero-content">
-            <img src="images/tdc_hero_logo.png" alt="TopDomain.Club Logo" class="hero-logo">
-        </div>
-    </div>
-
-    <main role="main">
-        <h1>Domains</h1>
-        
-        <div id="controls-container">
-            <div id="filter-container">
-                <div id="search-wrapper">
-                    <input type="text" id="search-input" placeholder="Search domains...">
-                    <button id="search-button">Search</button>
-                </div>
-                <label for="price-filter">Max Price:</label>
-                <select id="price-filter">
-                    <option value="">All</option>
-                    <option value="5000">Up to $5,000</option>
-                    <option value="10000">Up to $10,000</option>
-                    <option value="25000">Up to $25,000</option>
-                    <option value="100000">Up to $100,000</option>
-                </select>
-
-                <label for="tld-filter">TLD:</label>
-                <select id="tld-filter">
-                    <option value="">All</option>
-                </select>
-            </div>
-
-            <div id="view-controls">
-                <label for="sort-select">Sort by:</label>
-                <select id="sort-select">
-                    <option value="name-asc">Name (A-Z)</option>
-                    <option value="name-desc">Name (Z-A)</option>
-                    <option value="price-asc">Price (Low to High)</option>
-                    <option value="price-desc">Price (High to Low)</option>
-                </select>
-
-                <div class="view-toggle">
-                    <button id="list-view-btn" class="view-btn active" aria-label="List View">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <line x1="3" y1="12" x2="21" y2="12"></line>
-                            <line x1="3" y1="6" x2="21" y2="6"></line>
-                            <line x1="3" y1="18" x2="21" y2="18"></line>
-                        </svg>
-                    </button>
-                    <button id="grid-view-btn" class="view-btn" aria-label="Grid View">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <rect x="3" y="3" width="7" height="7"></rect>
-                            <rect x="14" y="3" width="7" height="7"></rect>
-                            <rect x="3" y="14" width="7" height="7"></rect>
-                            <rect x="14" y="14" width="7" height="7"></rect>
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <div id="domain-container" class="list-view">
-            <div id="domain-grid" class="domain-grid"></div>
-            <div id="domain-list" class="domain-list">
-                <div class="domain-list-header">
-                    <div class="domain-list-name">Domain Name</div>
-                    <div class="domain-list-tld">TLD</div>
-                    <div class="domain-list-price">Price</div>
-                    <div class="domain-list-action"></div>
-                </div>
-                <div class="domain-list-body"></div>
-            </div>
-        </div>
-    </main>
-
-    <footer>
-        <p>© 2024 TopDomain.Club. All rights reserved.</p>
-    </footer>
-
-    
-</body>
+<header>
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/about">About Us</a></li>
+<li><a href="/updates">Updates</a></li>
+<li><a href="/contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+<div class="hero-banner">
+<div class="hero-content">
+<img alt="TopDomain.Club Logo" class="hero-logo" src="images/tdc_hero_logo.png"/>
+</div>
+</div>
+<main role="main">
+<h1>Domains</h1>
+<div id="controls-container">
+<div id="filter-container">
+<div id="search-wrapper">
+<input id="search-input" placeholder="Search domains..." type="text"/>
+<button id="search-button">Search</button>
+</div>
+<label for="price-filter">Max Price:</label>
+<select id="price-filter">
+<option value="">All</option>
+<option value="5000">Up to $5,000</option>
+<option value="10000">Up to $10,000</option>
+<option value="25000">Up to $25,000</option>
+<option value="100000">Up to $100,000</option>
+</select>
+<label for="tld-filter">TLD:</label>
+<select id="tld-filter">
+<option value="">All</option>
+</select>
+</div>
+<div id="view-controls">
+<label for="sort-select">Sort by:</label>
+<select id="sort-select">
+<option value="name-asc">Name (A-Z)</option>
+<option value="name-desc">Name (Z-A)</option>
+<option value="price-asc">Price (Low to High)</option>
+<option value="price-desc">Price (High to Low)</option>
+</select>
+<div class="view-toggle">
+<button aria-label="List View" class="view-btn active" id="list-view-btn">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20">
+<line x1="3" x2="21" y1="12" y2="12"></line>
+<line x1="3" x2="21" y1="6" y2="6"></line>
+<line x1="3" x2="21" y1="18" y2="18"></line>
+</svg>
+</button>
+<button aria-label="Grid View" class="view-btn" id="grid-view-btn">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20">
+<rect height="7" width="7" x="3" y="3"></rect>
+<rect height="7" width="7" x="14" y="3"></rect>
+<rect height="7" width="7" x="3" y="14"></rect>
+<rect height="7" width="7" x="14" y="14"></rect>
+</svg>
+</button>
+</div>
+</div>
+</div>
+<div class="list-view" id="domain-container">
+<div class="domain-grid" id="domain-grid"></div>
+<div class="domain-list" id="domain-list">
+<div class="domain-list-header">
+<div class="domain-list-name">Domain Name</div>
+<div class="domain-list-tld">TLD</div>
+<div class="domain-list-price">Price</div>
+<div class="domain-list-action"></div>
+</div>
+<div class="domain-list-body"></div>
+</div>
+</div>
+</main>
+<footer>
+<p>© 2024 TopDomain.Club. All rights reserved.</p>
+</footer>
+<script type="application/ld+json">[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "TopDomain.Club",
+    "url": "https://www.topdomain.club",
+    "logo": "https://www.topdomain.club/images/tdc_hero_logo.png",
+    "description": "Premium domain marketplace offering domains in categories like AI, bot, tech and more.",
+    "sameAs": [
+      "https://twitter.com/TopDomainClub"
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "TopDomain.Club",
+    "url": "https://www.topdomain.club",
+    "description": "Premium domain marketplace with curated domain names for sale.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.topdomain.club/?search={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Featured Premium Domains",
+    "description": "A selection of premium domain names available for purchase",
+    "url": "https://www.topdomain.club",
+    "numberOfItems": 10,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Product",
+          "name": "10000.bot",
+          "description": "Premium bot domain name with 5 characters",
+          "url": "https://10000.bot",
+          "category": "bot"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Product",
+          "name": "10k.bot",
+          "description": "Premium bot domain name with 3 characters",
+          "url": "https://10k.bot",
+          "category": "bot"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Product",
+          "name": "18.bot",
+          "description": "Premium bot domain name with 2 characters",
+          "url": "https://18.bot",
+          "category": "bot"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Product",
+          "name": "1800.bot",
+          "description": "Premium bot domain name with 4 characters",
+          "url": "https://1800.bot",
+          "category": "bot"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Product",
+          "name": "Abstain.ai",
+          "description": "Premium ai domain name with 7 characters",
+          "url": "https://Abstain.ai",
+          "category": "ai"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "Product",
+          "name": "Adblock.tel",
+          "description": "Premium tel domain name with 7 characters",
+          "url": "https://Adblock.tel",
+          "category": "tel"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "Product",
+          "name": "Aerial.si",
+          "description": "Premium si domain name with 6 characters",
+          "url": "https://Aerial.si",
+          "category": "si"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "Product",
+          "name": "AgentFinder.co",
+          "description": "Premium agent domain name with 11 characters",
+          "url": "https://AgentFinder.co",
+          "category": "agent"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@type": "Product",
+          "name": "AgenticCode.com",
+          "description": "Premium agent domain name with 11 characters",
+          "url": "https://AgenticCode.com",
+          "category": "agent"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "item": {
+          "@type": "Product",
+          "name": "AgenticDeal.com",
+          "description": "Premium agent domain name with 11 characters",
+          "url": "https://AgenticDeal.com",
+          "category": "agent"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.topdomain.club/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Domain Directory",
+        "item": "https://www.topdomain.club/directory.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Categories",
+        "item": "https://www.topdomain.club/categories/"
+      }
+    ]
+  }
+]</script></body>
 </html>
