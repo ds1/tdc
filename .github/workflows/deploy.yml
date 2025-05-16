@@ -1,10 +1,8 @@
 name: Deploy to GitHub Pages
-
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
-
 jobs:
   build-and-deploy:
     environment:
@@ -21,21 +19,17 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: false
-
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-
       - name: Process domain data
         run: |
           python scripts/convert_csv_to_json.py
-
       - name: Generate LLM-friendly data files
         run: |
           python scripts/generate_llm_data.py
@@ -44,7 +38,6 @@ jobs:
         run: |
           pip install beautifulsoup4
           python scripts/update_metadata.py
-
       - name: Commit updated JSON
         run: |
           git config --local user.email "action@github.com"
@@ -52,19 +45,18 @@ jobs:
           git add data/output/domains.json
           git commit -m "Update domains.json from CSV [skip ci]" || echo "No changes to commit"
           git push "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" main
-
       - name: Create build directory
         shell: bash
         run: |
           # Create build directory
           mkdir -p build
-
           # Copy HTML files from docs
           cp docs/*.html build/
           
           # Copy asset directories from docs
           cp -r docs/css build/
           cp -r docs/js build/
+          cp -r docs/images build/ || echo "No images directory found"
           
           # Copy LLM-friendly data
           mkdir -p build/llm-data
@@ -90,7 +82,6 @@ jobs:
           # Create required files
           touch build/.nojekyll
           echo "topdomain.club" > build/CNAME
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: JamesIves/github-pages-deploy-action@v4
