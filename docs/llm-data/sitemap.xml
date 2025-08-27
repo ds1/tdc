@@ -3,564 +3,950 @@
     <!-- Main website URLs -->
     <url>
         <loc>https://www.topdomain.club/</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/about.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/contact.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/updates.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/directory.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-L.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-B2B.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-adult.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-Pal.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-agent.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-Tech.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-ad.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-agency.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-agt.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/category-ai.html</loc>
-        <lastmod>2025-05-16</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://www.topdomain.club/categories/category-aicom.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/category-api.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/category-ar.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-baby.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-beer.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-bet.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/category-bot.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-botcom.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-brave.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-brain.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-c.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-business.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-cash.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-climate.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-cc.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-code.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-co.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-crypto.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-com.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/category-cv.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-data.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-cx.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-ecommerce.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-damn.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-fintech.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-dev.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-food.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-directory.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-gaming.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-domains.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-dream.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-eth.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-events.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-exchange.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-follow.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-guidance.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-homes.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-horse.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-hub.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/category-im.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-medical.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-info.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-misc.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-ing.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-political.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-js.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-product.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-lfg.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-realty.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-locker.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-religion.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-moon.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-robot.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-mx.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-net.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-notes.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-now.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-online.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-org.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-performer.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-presenter.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-prices.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-pro.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-pw.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-rust.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/category-si.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-spanish.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/category-skin.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-software.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-solutions.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-src.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-studio.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-tax.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-tea.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/category-tech.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/category-tel.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-token.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-trading.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-twin.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-u.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-universe.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/category-vc.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-video.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/category-wave.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-x.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-xr.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-xrp.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-xyz.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-B2B.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-Pal.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-Tech.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-ad.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-agency.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-agt.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-ai.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-api.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-ar.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/tld-b2b.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/tld-baby.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-beer.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-bet.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-bot.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-brave.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-c.html</loc>
-        <lastmod>2025-05-16</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://www.topdomain.club/categories/tld-cam.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-cash.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-cc.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-co.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-com.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-cv.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-cx.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-damn.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-dev.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-directory.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-domains.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-dream.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-eth.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-events.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-exchange.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-follow.html</loc>
-        <lastmod>2025-05-16</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://www.topdomain.club/categories/tld-gg.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-guidance.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-homes.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-horse.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-hub.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-im.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-info.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-ing.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/tld-loans.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/tld-js.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-lfg.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-locker.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-moon.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-mx.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-net.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-notes.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-now.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-online.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-org.html</loc>
-        <lastmod>2025-05-16</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://www.topdomain.club/categories/tld-pal.html</loc>
-        <lastmod>2025-05-16</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://www.topdomain.club/categories/tld-partners.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-performer.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-presenter.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-prices.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-pro.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-pw.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-rust.html</loc>
-        <lastmod>2025-05-16</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://www.topdomain.club/categories/tld-services.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-si.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-skin.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-software.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-solutions.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-src.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-studio.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-tax.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-tea.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-tech.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-tel.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-token.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-trading.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-twin.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-u.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-universe.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-vc.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/tld-vip.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <loc>https://www.topdomain.club/categories/tld-video.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-wave.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-x.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-xr.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-xrp.html</loc>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-xyz.html</loc>
-        <lastmod>2025-05-16</lastmod>
+        <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://0.wave</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://10000.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://10002.xrp</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -576,6 +962,14 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://2FA.ad</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://2FA.brave</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Abstain.ai</loc>
         <priority>0.6</priority>
     </url>
@@ -588,7 +982,19 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Aftermarket.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://AgentFinder.co</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Agentic.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://AgenticBroker.x</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -616,6 +1022,10 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Agreement.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://AI.B2B</loc>
         <priority>0.6</priority>
     </url>
@@ -640,7 +1050,15 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://AIBiz.dev</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://AIbudgeter.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://AIDataEthics.org</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -673,6 +1091,34 @@
     </url>
     <url>
         <loc>https://AIlabeler.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://AIlabeler.info</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://AIlabeler.net</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://AIlabeler.online</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://AIlabeler.org</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://AIlabeler.pro</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://AIlabeler.tech</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://AIlabeler.xyz</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -756,11 +1202,31 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://AtticAgent.com</loc>
+        <loc>https://Announce.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Antarctic.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Appraisal.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Approve.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Arctic.xrp</loc>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://Ass.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://AtticAgent.com</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -769,6 +1235,10 @@
     </url>
     <url>
         <loc>https://Autopost.si</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Aviator.bot</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -785,6 +1255,10 @@
     </url>
     <url>
         <loc>https://Basket.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Batch.xrp</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -808,11 +1282,19 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://BCIPlatform.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Beast.si</loc>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://BedroomAgent.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Behavior.agt</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -832,7 +1314,15 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Bidding.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Binge.tel</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://BizDevelopmentAI.com</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -844,11 +1334,19 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Border.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Bot.api</loc>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://Bot.notes</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://BotBroker.x</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -864,6 +1362,10 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Boulder.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Brain.api</loc>
         <priority>0.6</priority>
     </url>
@@ -873,6 +1375,10 @@
     </url>
     <url>
         <loc>https://Brave.tel</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://BrokerBot.x</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -892,7 +1398,15 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Burn.brave</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://BusinessDevelopmentAI.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Campaign.agt</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -901,6 +1415,18 @@
     </url>
     <url>
         <loc>https://CampingAgent.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Canonical.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Capitol.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Cause.xrp</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -917,6 +1443,10 @@
     </url>
     <url>
         <loc>https://Chew.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://ChewsMenu.com</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -940,6 +1470,18 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Co.twin</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Code.twin</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Codecks.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Cogno.si</loc>
         <priority>0.6</priority>
     </url>
@@ -952,7 +1494,35 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Commission.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Confirmation.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Corag.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Cosign.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Counsel.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://CoverLetter.cv</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Crime.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://CRISPR.baby</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -964,11 +1534,23 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Dan.moon</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Dan.twin</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://DapAgent.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Data.api</loc>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://Datacenter.cam</loc>
+        <loc>https://DataEntry.agt</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -977,6 +1559,14 @@
     </url>
     <url>
         <loc>https://DearLord.co</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Decider.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Decoder.bot</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -989,6 +1579,22 @@
     </url>
     <url>
         <loc>https://Delete.ar</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Describe.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Description.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Detection.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Detective.agt</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1032,6 +1638,18 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://DJT.locker</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://DJT.tax</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://DNA.skin</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://DomainList.si</loc>
         <priority>0.6</priority>
     </url>
@@ -1044,6 +1662,14 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://DotSIDomains.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Double.u</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://DrinkFreshOcean.com</loc>
         <priority>0.6</priority>
     </url>
@@ -1052,11 +1678,11 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://DrinkOceanWater.org</loc>
+        <loc>https://DrinkOceanWater.com</loc>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://DrinkOceanWater.com</loc>
+        <loc>https://DrinkOceanWater.org</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1064,7 +1690,15 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Drop.moon</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Dub.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Dude.ad</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1076,11 +1710,23 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Dynamic.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Eastern.si</loc>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://Ebony.si</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://EdgAgent.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://EEGHeadphones.com</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1096,6 +1742,18 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Embryo.solutions</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://EmbryoEdit.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://EmbryoEdits.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://EmergencyWaters.com</loc>
         <priority>0.6</priority>
     </url>
@@ -1105,6 +1763,10 @@
     </url>
     <url>
         <loc>https://Eraser.ar</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Estimator.agt</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1120,11 +1782,11 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://ExpertosAI.com</loc>
+        <loc>https://Expired.agt</loc>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://ExpertosAI.services</loc>
+        <loc>https://Ext.ad</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1144,6 +1806,10 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://FanURL.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Father.si</loc>
         <priority>0.6</priority>
     </url>
@@ -1152,11 +1818,19 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Field.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Flesh.si</loc>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://Flood.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Flow.brave</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1172,7 +1846,19 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://FocusGroup.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://ForceAgentic.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Forecast.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Foresight.agt</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1180,11 +1866,11 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://FreshwaterAgent.com</loc>
+        <loc>https://Frequencias.com</loc>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://Frequencias.com</loc>
+        <loc>https://FreshwaterAgent.com</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1196,7 +1882,67 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://GarageSurplus.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://GarageSurplus.net</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Gavin.si</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Genetics.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://GenZ.dream</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://GenZ.lfg</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://GenZ.pw</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Get.moon</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Gf.twin</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Glmr.moon</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://GMGM.pw</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://GMGM.tea</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://GMGN.pw</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://GMGN.u</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Gotch.pw</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Gotch.u</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1208,7 +1954,23 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Greeter.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Grypto.org</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Gum.ad</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Gutter.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Harris.si</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1216,7 +1978,27 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Heard.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://HelpDesk.ar</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://HNS.brave</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Hodl.moon</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Hold.moon</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Holdm.xrp</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1232,6 +2014,10 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Humanoid.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Hunger.si</loc>
         <priority>0.6</priority>
     </url>
@@ -1240,11 +2026,43 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Inbound.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://InfantAgent.com</loc>
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Infinity.lfg</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Inject.si</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Institution.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Institutional.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://InterfaceBot.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Interpreter.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Interviewer.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Inventory.agt</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1253,6 +2071,14 @@
     </url>
     <url>
         <loc>https://Ivory.si</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Jagg.ai</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Jeet.moon</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1268,7 +2094,15 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://JSON.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://KegPump.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Keyword.bot</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1284,7 +2118,23 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Lander.video</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Landing.moon</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Landscape.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Las-Vegas.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Launch.moon</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1296,11 +2146,23 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://LeadGen.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Loaner.bot</loc>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://Locate.ar</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Logger.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Lookup.xrp</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1312,11 +2174,27 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://MATICGems.vip</loc>
+        <loc>https://Man.moon</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Marina.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Marker.now</loc>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://Med.tax</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Meditate.ar</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Meme.horse</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1332,11 +2210,31 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Mesh.brave</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Metatag.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Migrate.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Mind.wave</loc>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://Minus.ar</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://ModelTrainer.ai</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Moderator.agt</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1364,6 +2262,10 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Negotiate.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Neura.tel</loc>
         <priority>0.6</priority>
     </url>
@@ -1377,6 +2279,10 @@
     </url>
     <url>
         <loc>https://NeurotechData.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Never.bot</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1404,6 +2310,10 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Nightvision.ar</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Nightvision.cv</loc>
         <priority>0.6</priority>
     </url>
@@ -1413,6 +2323,18 @@
     </url>
     <url>
         <loc>https://Nlink.tel</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Nope.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Northern.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://NoSQL.bot</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1440,7 +2362,11 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://Oir.ai</loc>
+        <loc>https://OhioPets.org</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://OIR.ai</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1460,7 +2386,19 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Organ.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Origin.si</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Outbound.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Outreach.agt</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1476,6 +2414,10 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Pad.moon</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Pareto.bot</loc>
         <priority>0.6</priority>
     </url>
@@ -1484,23 +2426,39 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://Petal.cc</loc>
+        <loc>https://Payouts.xrp</loc>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://Petal.gg</loc>
+        <loc>https://PDFCapture.com</loc>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://Petal.partners</loc>
+        <loc>https://Perceiver.bot</loc>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://Pick.si</loc>
+        <loc>https://Petal.api</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Petal.js</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Pilot.ad</loc>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://Pitch.ar</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Pitch.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Please.u</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1532,7 +2490,19 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://PregnantCravings.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Prem.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Preseed.si</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Pricing.agt</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1540,7 +2510,11 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://PrimaryVoting.loans</loc>
+        <loc>https://Problem.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://PromoCode.agt</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1548,7 +2522,15 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Proposal.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Prorate.ai</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Prot.bot</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1556,7 +2538,19 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Purple.moon</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://QTL.ai</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Qualifier.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Qualify.agt</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1568,6 +2562,14 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Query.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Quest.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Question.si</loc>
         <priority>0.6</priority>
     </url>
@@ -1576,11 +2578,39 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://ReadStream.cc</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Reasoning.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Receipt.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Recruiter.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Reflect.tel</loc>
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Reformat.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Region.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Remember.ar</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Reminder.agt</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1592,7 +2622,19 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Renewals.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Rep.twin</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Replace.tel</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Repo.brave</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1604,7 +2646,15 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Reps.twin</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Rerun.events</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Resource.agt</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1624,11 +2674,27 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://RobotaxiTV.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Robotic.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Robotic.trading</loc>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://RobotJury.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Rows.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Rummy.xrp</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1648,11 +2714,23 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Scheduler.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Scrape.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Seattle.si</loc>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://Semi.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Senate.xrp</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1664,7 +2742,15 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Shib.u</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Shpp.ing</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://SIDomain.directory</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1672,7 +2758,23 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Sign.moon</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://SignalData.ai</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://SilverCoins.eth</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Sim.hub</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://SleepEng.com</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1680,11 +2782,23 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://SocialSecurity.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://SolanaDetroit.com</loc>
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Solutions.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Sophie.si</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Southern.xrp</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1700,7 +2814,15 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Spend.ad</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Spend.tel</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Split.xrp</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1709,6 +2831,10 @@
     </url>
     <url>
         <loc>https://Src.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://State.xrp</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1724,7 +2850,23 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Summarize.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Summon.si</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Summon.tel</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://SunshineMines.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Superintelligence.domains</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1732,7 +2874,31 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Supervisor.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Supervisor.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Swarmfare.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://SwarmingIT.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Syntax.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Tariff.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Tariff.xrp</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1741,6 +2907,10 @@
     </url>
     <url>
         <loc>https://Telepath.si</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Telepathic.ai</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1756,6 +2926,10 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Thermo.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Throw.bot</loc>
         <priority>0.6</priority>
     </url>
@@ -1765,6 +2939,22 @@
     </url>
     <url>
         <loc>https://Timer.tel</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Timesheet.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://TokenSwap.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Top.twin</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Trainer.xrp</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1780,7 +2970,27 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Tuition.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://TutoAgent.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Tutor.xrp</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Tutorial.agt</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://UITransform.com</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Ultrapremium.bot</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1800,7 +3010,15 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://USDC.tax</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://UWL.ai</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://UXResearch.agt</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1840,6 +3058,10 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Wax.moon</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://WeatherRobots.com</loc>
         <priority>0.6</priority>
     </url>
@@ -1852,6 +3074,10 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://Whom.bot</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Wireframe.bot</loc>
         <priority>0.6</priority>
     </url>
@@ -1860,11 +3086,19 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://WLT.moon</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://Yor.cash</loc>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://Yor.exchange</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://Zone.im</loc>
         <priority>0.6</priority>
     </url>
 </urlset>

@@ -35,6 +35,17 @@
         "position": 1,
         "item": {
           "@type": "Product",
+          "name": "0.wave",
+          "description": "Premium wave domain name with 1 characters",
+          "url": "https://0.wave",
+          "category": "wave"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Product",
           "name": "10000.bot",
           "description": "Premium bot domain name with 5 characters",
           "url": "https://10000.bot",
@@ -43,7 +54,18 @@
       },
       {
         "@type": "ListItem",
-        "position": 2,
+        "position": 3,
+        "item": {
+          "@type": "Product",
+          "name": "10002.xrp",
+          "description": "Premium xrp domain name with 5 characters",
+          "url": "https://10002.xrp",
+          "category": "xrp"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
         "item": {
           "@type": "Product",
           "name": "10k.bot",
@@ -54,7 +76,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 3,
+        "position": 5,
         "item": {
           "@type": "Product",
           "name": "18.bot",
@@ -65,7 +87,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 4,
+        "position": 6,
         "item": {
           "@type": "Product",
           "name": "1800.bot",
@@ -76,7 +98,29 @@
       },
       {
         "@type": "ListItem",
-        "position": 5,
+        "position": 7,
+        "item": {
+          "@type": "Product",
+          "name": "2FA.ad",
+          "description": "Premium ad domain name with 3 characters",
+          "url": "https://2FA.ad",
+          "category": "ad"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "Product",
+          "name": "2FA.brave",
+          "description": "Premium brave domain name with 3 characters",
+          "url": "https://2FA.brave",
+          "category": "brave"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
         "item": {
           "@type": "Product",
           "name": "Abstain.ai",
@@ -87,57 +131,13 @@
       },
       {
         "@type": "ListItem",
-        "position": 6,
+        "position": 10,
         "item": {
           "@type": "Product",
           "name": "Adblock.tel",
           "description": "Premium tel domain name with 7 characters",
           "url": "https://Adblock.tel",
           "category": "tel"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 7,
-        "item": {
-          "@type": "Product",
-          "name": "Aerial.si",
-          "description": "Premium si domain name with 6 characters",
-          "url": "https://Aerial.si",
-          "category": "si"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 8,
-        "item": {
-          "@type": "Product",
-          "name": "AgentFinder.co",
-          "description": "Premium agent domain name with 11 characters",
-          "url": "https://AgentFinder.co",
-          "category": "agent"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 9,
-        "item": {
-          "@type": "Product",
-          "name": "AgenticCode.com",
-          "description": "Premium agent domain name with 11 characters",
-          "url": "https://AgenticCode.com",
-          "category": "agent"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 10,
-        "item": {
-          "@type": "Product",
-          "name": "AgenticDeal.com",
-          "description": "Premium agent domain name with 11 characters",
-          "url": "https://AgenticDeal.com",
-          "category": "agent"
         }
       }
     ]
