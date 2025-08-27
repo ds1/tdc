@@ -26,7 +26,7 @@ Last updated: 2025-08-27
 | [AgenticJob.com](https://AgenticJob.com) | $3,750 | com | com | 10 |
 | [AgentRent.com](https://AgentRent.com) | $3,750 | com | com | 9 |
 | [Agreement.agt](https://Agreement.agt) | $3,750 | agt | agt | 9 |
-| [AI.B2B](https://AI.B2B) | $3,750 | B2B | B2B | 2 |
+| [AI.b2b](https://AI.b2b) | $3,750 | b2b | b2b | 2 |
 | [AI.performer](https://AI.performer) | $3,750 | performer | performer | 2 |
 | [AI.presenter](https://AI.presenter) | $3,750 | presenter | presenter | 2 |
 | [AI.prices](https://AI.prices) | $3,750 | prices | prices | 2 |
@@ -97,7 +97,7 @@ Last updated: 2025-08-27
 | [Bible.api](https://Bible.api) | $3,750 | api | api | 5 |
 | [Bible.guidance](https://Bible.guidance) | $3,750 | guidance | guidance | 5 |
 | [Bible.notes](https://Bible.notes) | $3,750 | notes | notes | 5 |
-| [Bible.Pal](https://Bible.Pal) | $3,750 | Pal | Pal | 5 |
+| [Bible.pal](https://Bible.pal) | $3,750 | pal | pal | 5 |
 | [Bidding.agt](https://Bidding.agt) | $3,750 | agt | agt | 7 |
 | [Binge.tel](https://Binge.tel) | $1,100 | tel | tel | 5 |
 | [BizDevelopmentAI.com](https://BizDevelopmentAI.com) | $3,750 | com | com | 16 |
@@ -116,7 +116,7 @@ Last updated: 2025-08-27
 | [Brave.tel](https://Brave.tel) | $3,750 | tel | tel | 5 |
 | [BrokerBot.x](https://BrokerBot.x) | $3,750 | x | x | 9 |
 | [Browband.co](https://Browband.co) | $3,750 | co | co | 8 |
-| [Browband.Tech](https://Browband.Tech) | $3,750 | Tech | Tech | 8 |
+| [Browband.tech](https://Browband.tech) | $3,750 | tech | tech | 8 |
 | [Browse.tel](https://Browse.tel) | $3,750 | tel | tel | 6 |
 | [Brunch.bot](https://Brunch.bot) | $3,750 | bot | bot | 6 |
 | [Burn.brave](https://Burn.brave) | $500 | brave | brave | 4 |

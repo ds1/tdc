@@ -38,24 +38,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/category-B2B.html</loc>
-        <lastmod>2025-08-27</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://www.topdomain.club/categories/category-Pal.html</loc>
-        <lastmod>2025-08-27</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://www.topdomain.club/categories/category-Tech.html</loc>
-        <lastmod>2025-08-27</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://www.topdomain.club/categories/category-ad.html</loc>
         <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
@@ -87,6 +69,12 @@
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/category-ar.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/category-b2b.html</loc>
         <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
@@ -320,6 +308,12 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://www.topdomain.club/categories/category-pal.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://www.topdomain.club/categories/category-performer.html</loc>
         <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
@@ -488,24 +482,6 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://www.topdomain.club/categories/tld-B2B.html</loc>
-        <lastmod>2025-08-27</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://www.topdomain.club/categories/tld-Pal.html</loc>
-        <lastmod>2025-08-27</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://www.topdomain.club/categories/tld-Tech.html</loc>
-        <lastmod>2025-08-27</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
         <loc>https://www.topdomain.club/categories/tld-ad.html</loc>
         <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
@@ -537,6 +513,12 @@
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-ar.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-b2b.html</loc>
         <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
@@ -765,6 +747,12 @@
     </url>
     <url>
         <loc>https://www.topdomain.club/categories/tld-org.html</loc>
+        <lastmod>2025-08-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.topdomain.club/categories/tld-pal.html</loc>
         <lastmod>2025-08-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
@@ -1026,7 +1014,7 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://AI.B2B</loc>
+        <loc>https://AI.b2b</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1310,7 +1298,7 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://Bible.Pal</loc>
+        <loc>https://Bible.pal</loc>
         <priority>0.6</priority>
     </url>
     <url>
@@ -1386,7 +1374,7 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://Browband.Tech</loc>
+        <loc>https://Browband.tech</loc>
         <priority>0.6</priority>
     </url>
     <url>

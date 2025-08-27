@@ -23,7 +23,7 @@ AgenticGigs.com - $3,750 - com
 AgenticJob.com - $3,750 - com
 AgentRent.com - $3,750 - com
 Agreement.agt - $3,750 - agt
-AI.B2B - $3,750 - B2B
+AI.b2b - $3,750 - b2b
 AI.performer - $3,750 - performer
 AI.presenter - $3,750 - presenter
 AI.prices - $3,750 - prices
@@ -94,7 +94,7 @@ Behavior.agt - $3,750 - agt
 Bible.api - $3,750 - api
 Bible.guidance - $3,750 - guidance
 Bible.notes - $3,750 - notes
-Bible.Pal - $3,750 - Pal
+Bible.pal - $3,750 - pal
 Bidding.agt - $3,750 - agt
 Binge.tel - $1,100 - tel
 BizDevelopmentAI.com - $3,750 - com
@@ -113,7 +113,7 @@ Brainstorm.tel - $3,750 - tel
 Brave.tel - $3,750 - tel
 BrokerBot.x - $3,750 - x
 Browband.co - $3,750 - co
-Browband.Tech - $3,750 - Tech
+Browband.tech - $3,750 - tech
 Browse.tel - $3,750 - tel
 Brunch.bot - $3,750 - bot
 Burn.brave - $500 - brave

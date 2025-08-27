@@ -408,17 +408,17 @@
       "position": 23,
       "item": {
         "@type": "Product",
-        "name": "AI.B2B",
-        "description": "Premium B2B domain name with 2 characters",
+        "name": "AI.b2b",
+        "description": "Premium b2b domain name with 2 characters",
         "offers": {
           "@type": "Offer",
           "price": 3750,
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://AI.B2B"
+          "url": "https://AI.b2b"
         },
-        "category": "B2B",
-        "productID": "domain-AI.B2B"
+        "category": "b2b",
+        "productID": "domain-AI.b2b"
       }
     },
     {
@@ -1686,17 +1686,17 @@
       "position": 94,
       "item": {
         "@type": "Product",
-        "name": "Bible.Pal",
-        "description": "Premium Pal domain name with 5 characters",
+        "name": "Bible.pal",
+        "description": "Premium pal domain name with 5 characters",
         "offers": {
           "@type": "Offer",
           "price": 3750,
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://Bible.Pal"
+          "url": "https://Bible.pal"
         },
-        "category": "Pal",
-        "productID": "domain-Bible.Pal"
+        "category": "pal",
+        "productID": "domain-Bible.pal"
       }
     },
     {
@@ -2028,17 +2028,17 @@
       "position": 113,
       "item": {
         "@type": "Product",
-        "name": "Browband.Tech",
-        "description": "Premium Tech domain name with 8 characters",
+        "name": "Browband.tech",
+        "description": "Premium tech domain name with 8 characters",
         "offers": {
           "@type": "Offer",
           "price": 3750,
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock",
-          "url": "https://Browband.Tech"
+          "url": "https://Browband.tech"
         },
-        "category": "Tech",
-        "productID": "domain-Browband.Tech"
+        "category": "tech",
+        "productID": "domain-Browband.tech"
       }
     },
     {
