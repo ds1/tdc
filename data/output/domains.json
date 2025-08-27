@@ -176,11 +176,11 @@
     "length": 9
   },
   {
-    "domainName": "AI.B2B",
+    "domainName": "AI.b2b",
     "price": 3750,
-    "category": "B2B",
-    "tld": "B2B",
-    "imageUrl": "/data/output/thumbnails/AI_B2B.jpg",
+    "category": "b2b",
+    "tld": "b2b",
+    "imageUrl": "/data/output/thumbnails/AI_b2b.jpg",
     "length": 2
   },
   {
@@ -744,11 +744,11 @@
     "length": 5
   },
   {
-    "domainName": "Bible.Pal",
+    "domainName": "Bible.pal",
     "price": 3750,
-    "category": "Pal",
-    "tld": "Pal",
-    "imageUrl": "/data/output/thumbnails/Bible_Pal.jpg",
+    "category": "pal",
+    "tld": "pal",
+    "imageUrl": "/data/output/thumbnails/Bible_pal.jpg",
     "length": 5
   },
   {
@@ -896,11 +896,11 @@
     "length": 8
   },
   {
-    "domainName": "Browband.Tech",
+    "domainName": "Browband.tech",
     "price": 3750,
-    "category": "Tech",
-    "tld": "Tech",
-    "imageUrl": "/data/output/thumbnails/Browband_Tech.jpg",
+    "category": "tech",
+    "tld": "tech",
+    "imageUrl": "/data/output/thumbnails/Browband_tech.jpg",
     "length": 8
   },
   {
