@@ -1,10 +1,9 @@
 # TopDomain.Club Premium Domains
 
-Last updated: 2025-08-27
+Last updated: 2025-11-02
 
 | Domain Name | Price | Category | TLD | Length |
 |-------------|-------|----------|-----|--------|
-| [0.wave](https://0.wave) | $3,750 | wave | wave | 1 |
 | [10000.bot](https://10000.bot) | $3,750 | bot | bot | 5 |
 | [10002.xrp](https://10002.xrp) | $3,750 | xrp | xrp | 5 |
 | [10k.bot](https://10k.bot) | $3,750 | bot | bot | 3 |
@@ -429,7 +428,6 @@ Last updated: 2025-08-27
 | [Rep.twin](https://Rep.twin) | $3,750 | twin | twin | 3 |
 | [Replace.tel](https://Replace.tel) | $3,750 | tel | tel | 7 |
 | [Repo.brave](https://Repo.brave) | $500 | brave | brave | 4 |
-| [Reps.ai](https://Reps.ai) | $122,888 | ai | ai | 4 |
 | [Reps.bot](https://Reps.bot) | $3,750 | bot | bot | 4 |
 | [Reps.twin](https://Reps.twin) | $3,750 | twin | twin | 4 |
 | [Rerun.events](https://Rerun.events) | $3,750 | events | events | 5 |
@@ -537,7 +535,6 @@ Last updated: 2025-08-27
 | [Wax.moon](https://Wax.moon) | $12,888 | moon | moon | 3 |
 | [WeatherRobots.com](https://WeatherRobots.com) | $3,750 | com | com | 13 |
 | [Wetware.si](https://Wetware.si) | $3,750 | si | si | 7 |
-| [WholesaleDeals.ai](https://WholesaleDeals.ai) | $29,888 | ai | ai | 14 |
 | [Whom.bot](https://Whom.bot) | $5,888 | bot | bot | 4 |
 | [Wireframe.bot](https://Wireframe.bot) | $3,750 | bot | bot | 9 |
 | [WLF.cx](https://WLF.cx) | $3,750 | cx | cx | 3 |
