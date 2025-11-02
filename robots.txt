@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Explicitly allow crawling of important directories
+Allow: /llm-data/
+Allow: /categories/
+Allow: /data/output/domains.json
+
+# Sitemap location
+Sitemap: https://www.topdomain.club/sitemap.xml

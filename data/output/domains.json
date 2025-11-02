@@ -1,13 +1,5 @@
 [
   {
-    "domainName": "0.wave",
-    "price": 3750,
-    "category": "wave",
-    "tld": "wave",
-    "imageUrl": "/data/output/thumbnails/0_wave.jpg",
-    "length": 1
-  },
-  {
     "domainName": "10000.bot",
     "price": 3750,
     "category": "bot",
@@ -3400,14 +3392,6 @@
     "length": 4
   },
   {
-    "domainName": "Reps.ai",
-    "price": 122888,
-    "category": "ai",
-    "tld": "ai",
-    "imageUrl": "/data/output/thumbnails/Reps_ai.jpg",
-    "length": 4
-  },
-  {
     "domainName": "Reps.bot",
     "price": 3750,
     "category": "bot",
@@ -4262,14 +4246,6 @@
     "tld": "si",
     "imageUrl": "/data/output/thumbnails/Wetware_si.jpg",
     "length": 7
-  },
-  {
-    "domainName": "WholesaleDeals.ai",
-    "price": 29888,
-    "category": "ai",
-    "tld": "ai",
-    "imageUrl": "/data/output/thumbnails/WholesaleDeals_ai.jpg",
-    "length": 14
   },
   {
     "domainName": "Whom.bot",
